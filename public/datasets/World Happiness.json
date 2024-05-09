@@ -1,0 +1,1600 @@
+{
+    "name": "World Happiness",
+    "source": "predefined",
+    "schema": {
+        "Country": "string",
+        "Happiness Rank": "number",
+        "Happiness Score": "number",
+        "Economy": "number",
+        "Health": "number",
+        "Freedom": "number",
+        "Generosity": "number",
+        "Trust": "number"
+    },
+    "metadata": {
+        "Happiness Rank": {
+            "betterWhen": "lower",
+            "description": "Rank of the country based on the Happiness Score."
+        },
+        "Happiness Score": {
+            "description": "A metric measured by asking the sampled people the question: \"How would you rate your happiness on a scale of 0 to 10 where 10 is the happiest.\"."
+        },
+        "Economy": {
+            "description": "The extent to which GDP contributes to the calculation of the Happiness Score."
+        },
+        "Health": {
+            "description": "The extent to which Life expectancy contributed to the calculation of the Happiness Score."
+        },
+        "Freedom": {
+            "description": "The extent to which Freedom contributed to the calculation of the Happiness Score."
+        },
+        "Generosity": {
+            "description": "The extent to which Donation to Charity contributes to Happiness Score."
+        },
+        "Trust": {
+            "description": "The extent to which Perception of Corruption contributes to Happiness Score."
+        }
+    },
+    "data": [
+        {
+            "Country": "Finland",
+            "Happiness Rank": "1",
+            "Happiness Score": "7.769",
+            "Economy": "1.340",
+            "Health": "0.986",
+            "Freedom": "0.596",
+            "Generosity": "0.153",
+            "Trust": "0.393"
+        },
+        {
+            "Country": "Denmark",
+            "Happiness Rank": "2",
+            "Happiness Score": "7.600",
+            "Economy": "1.383",
+            "Health": "0.996",
+            "Freedom": "0.592",
+            "Generosity": "0.252",
+            "Trust": "0.410"
+        },
+        {
+            "Country": "Norway",
+            "Happiness Rank": "3",
+            "Happiness Score": "7.554",
+            "Economy": "1.488",
+            "Health": "1.028",
+            "Freedom": "0.603",
+            "Generosity": "0.271",
+            "Trust": "0.341"
+        },
+        {
+            "Country": "Iceland",
+            "Happiness Rank": "4",
+            "Happiness Score": "7.494",
+            "Economy": "1.380",
+            "Health": "1.026",
+            "Freedom": "0.591",
+            "Generosity": "0.354",
+            "Trust": "0.118"
+        },
+        {
+            "Country": "Netherlands",
+            "Happiness Rank": "5",
+            "Happiness Score": "7.488",
+            "Economy": "1.396",
+            "Health": "0.999",
+            "Freedom": "0.557",
+            "Generosity": "0.322",
+            "Trust": "0.298"
+        },
+        {
+            "Country": "Switzerland",
+            "Happiness Rank": "6",
+            "Happiness Score": "7.480",
+            "Economy": "1.452",
+            "Health": "1.052",
+            "Freedom": "0.572",
+            "Generosity": "0.263",
+            "Trust": "0.343"
+        },
+        {
+            "Country": "Sweden",
+            "Happiness Rank": "7",
+            "Happiness Score": "7.343",
+            "Economy": "1.387",
+            "Health": "1.009",
+            "Freedom": "0.574",
+            "Generosity": "0.267",
+            "Trust": "0.373"
+        },
+        {
+            "Country": "New Zealand",
+            "Happiness Rank": "8",
+            "Happiness Score": "7.307",
+            "Economy": "1.303",
+            "Health": "1.026",
+            "Freedom": "0.585",
+            "Generosity": "0.330",
+            "Trust": "0.380"
+        },
+        {
+            "Country": "Canada",
+            "Happiness Rank": "9",
+            "Happiness Score": "7.278",
+            "Economy": "1.365",
+            "Health": "1.039",
+            "Freedom": "0.584",
+            "Generosity": "0.285",
+            "Trust": "0.308"
+        },
+        {
+            "Country": "Austria",
+            "Happiness Rank": "10",
+            "Happiness Score": "7.246",
+            "Economy": "1.376",
+            "Health": "1.016",
+            "Freedom": "0.532",
+            "Generosity": "0.244",
+            "Trust": "0.226"
+        },
+        {
+            "Country": "Australia",
+            "Happiness Rank": "11",
+            "Happiness Score": "7.228",
+            "Economy": "1.372",
+            "Health": "1.036",
+            "Freedom": "0.557",
+            "Generosity": "0.332",
+            "Trust": "0.290"
+        },
+        {
+            "Country": "Costa Rica",
+            "Happiness Rank": "12",
+            "Happiness Score": "7.167",
+            "Economy": "1.034",
+            "Health": "0.963",
+            "Freedom": "0.558",
+            "Generosity": "0.144",
+            "Trust": "0.093"
+        },
+        {
+            "Country": "Israel",
+            "Happiness Rank": "13",
+            "Happiness Score": "7.139",
+            "Economy": "1.276",
+            "Health": "1.029",
+            "Freedom": "0.371",
+            "Generosity": "0.261",
+            "Trust": "0.082"
+        },
+        {
+            "Country": "Luxembourg",
+            "Happiness Rank": "14",
+            "Happiness Score": "7.090",
+            "Economy": "1.609",
+            "Health": "1.012",
+            "Freedom": "0.526",
+            "Generosity": "0.194",
+            "Trust": "0.316"
+        },
+        {
+            "Country": "United Kingdom",
+            "Happiness Rank": "15",
+            "Happiness Score": "7.054",
+            "Economy": "1.333",
+            "Health": "0.996",
+            "Freedom": "0.450",
+            "Generosity": "0.348",
+            "Trust": "0.278"
+        },
+        {
+            "Country": "Ireland",
+            "Happiness Rank": "16",
+            "Happiness Score": "7.021",
+            "Economy": "1.499",
+            "Health": "0.999",
+            "Freedom": "0.516",
+            "Generosity": "0.298",
+            "Trust": "0.310"
+        },
+        {
+            "Country": "Germany",
+            "Happiness Rank": "17",
+            "Happiness Score": "6.985",
+            "Economy": "1.373",
+            "Health": "0.987",
+            "Freedom": "0.495",
+            "Generosity": "0.261",
+            "Trust": "0.265"
+        },
+        {
+            "Country": "Belgium",
+            "Happiness Rank": "18",
+            "Happiness Score": "6.923",
+            "Economy": "1.356",
+            "Health": "0.986",
+            "Freedom": "0.473",
+            "Generosity": "0.160",
+            "Trust": "0.210"
+        },
+        {
+            "Country": "United States",
+            "Happiness Rank": "19",
+            "Happiness Score": "6.892",
+            "Economy": "1.433",
+            "Health": "0.874",
+            "Freedom": "0.454",
+            "Generosity": "0.280",
+            "Trust": "0.128"
+        },
+        {
+            "Country": "Czech Republic",
+            "Happiness Rank": "20",
+            "Happiness Score": "6.852",
+            "Economy": "1.269",
+            "Health": "0.920",
+            "Freedom": "0.457",
+            "Generosity": "0.046",
+            "Trust": "0.036"
+        },
+        {
+            "Country": "United Arab Emirates",
+            "Happiness Rank": "21",
+            "Happiness Score": "6.825",
+            "Economy": "1.503",
+            "Health": "0.825",
+            "Freedom": "0.598",
+            "Generosity": "0.262",
+            "Trust": "0.182"
+        },
+        {
+            "Country": "Malta",
+            "Happiness Rank": "22",
+            "Happiness Score": "6.726",
+            "Economy": "1.300",
+            "Health": "0.999",
+            "Freedom": "0.564",
+            "Generosity": "0.375",
+            "Trust": "0.151"
+        },
+        {
+            "Country": "Mexico",
+            "Happiness Rank": "23",
+            "Happiness Score": "6.595",
+            "Economy": "1.070",
+            "Health": "0.861",
+            "Freedom": "0.433",
+            "Generosity": "0.074",
+            "Trust": "0.073"
+        },
+        {
+            "Country": "France",
+            "Happiness Rank": "24",
+            "Happiness Score": "6.592",
+            "Economy": "1.324",
+            "Health": "1.045",
+            "Freedom": "0.436",
+            "Generosity": "0.111",
+            "Trust": "0.183"
+        },
+        {
+            "Country": "Taiwan",
+            "Happiness Rank": "25",
+            "Happiness Score": "6.446",
+            "Economy": "1.368",
+            "Health": "0.914",
+            "Freedom": "0.351",
+            "Generosity": "0.242",
+            "Trust": "0.097"
+        },
+        {
+            "Country": "Chile",
+            "Happiness Rank": "26",
+            "Happiness Score": "6.444",
+            "Economy": "1.159",
+            "Health": "0.920",
+            "Freedom": "0.357",
+            "Generosity": "0.187",
+            "Trust": "0.056"
+        },
+        {
+            "Country": "Guatemala",
+            "Happiness Rank": "27",
+            "Happiness Score": "6.436",
+            "Economy": "0.800",
+            "Health": "0.746",
+            "Freedom": "0.535",
+            "Generosity": "0.175",
+            "Trust": "0.078"
+        },
+        {
+            "Country": "Saudi Arabia",
+            "Happiness Rank": "28",
+            "Happiness Score": "6.375",
+            "Economy": "1.403",
+            "Health": "0.795",
+            "Freedom": "0.439",
+            "Generosity": "0.080",
+            "Trust": "0.132"
+        },
+        {
+            "Country": "Qatar",
+            "Happiness Rank": "29",
+            "Happiness Score": "6.374",
+            "Economy": "1.684",
+            "Health": "0.871",
+            "Freedom": "0.555",
+            "Generosity": "0.220",
+            "Trust": "0.167"
+        },
+        {
+            "Country": "Spain",
+            "Happiness Rank": "30",
+            "Happiness Score": "6.354",
+            "Economy": "1.286",
+            "Health": "1.062",
+            "Freedom": "0.362",
+            "Generosity": "0.153",
+            "Trust": "0.079"
+        },
+        {
+            "Country": "Panama",
+            "Happiness Rank": "31",
+            "Happiness Score": "6.321",
+            "Economy": "1.149",
+            "Health": "0.910",
+            "Freedom": "0.516",
+            "Generosity": "0.109",
+            "Trust": "0.054"
+        },
+        {
+            "Country": "Brazil",
+            "Happiness Rank": "32",
+            "Happiness Score": "6.300",
+            "Economy": "1.004",
+            "Health": "0.802",
+            "Freedom": "0.390",
+            "Generosity": "0.099",
+            "Trust": "0.086"
+        },
+        {
+            "Country": "Uruguay",
+            "Happiness Rank": "33",
+            "Happiness Score": "6.293",
+            "Economy": "1.124",
+            "Health": "0.891",
+            "Freedom": "0.523",
+            "Generosity": "0.127",
+            "Trust": "0.150"
+        },
+        {
+            "Country": "Singapore",
+            "Happiness Rank": "34",
+            "Happiness Score": "6.262",
+            "Economy": "1.572",
+            "Health": "1.141",
+            "Freedom": "0.556",
+            "Generosity": "0.271",
+            "Trust": "0.453"
+        },
+        {
+            "Country": "El Salvador",
+            "Happiness Rank": "35",
+            "Happiness Score": "6.253",
+            "Economy": "0.794",
+            "Health": "0.789",
+            "Freedom": "0.430",
+            "Generosity": "0.093",
+            "Trust": "0.074"
+        },
+        {
+            "Country": "Italy",
+            "Happiness Rank": "36",
+            "Happiness Score": "6.223",
+            "Economy": "1.294",
+            "Health": "1.039",
+            "Freedom": "0.231",
+            "Generosity": "0.158",
+            "Trust": "0.030"
+        },
+        {
+            "Country": "Bahrain",
+            "Happiness Rank": "37",
+            "Happiness Score": "6.199",
+            "Economy": "1.362",
+            "Health": "0.871",
+            "Freedom": "0.536",
+            "Generosity": "0.255",
+            "Trust": "0.110"
+        },
+        {
+            "Country": "Slovakia",
+            "Happiness Rank": "38",
+            "Happiness Score": "6.198",
+            "Economy": "1.246",
+            "Health": "0.881",
+            "Freedom": "0.334",
+            "Generosity": "0.121",
+            "Trust": "0.014"
+        },
+        {
+            "Country": "Trinidad & Tobago",
+            "Happiness Rank": "39",
+            "Happiness Score": "6.192",
+            "Economy": "1.231",
+            "Health": "0.713",
+            "Freedom": "0.489",
+            "Generosity": "0.185",
+            "Trust": "0.016"
+        },
+        {
+            "Country": "Poland",
+            "Happiness Rank": "40",
+            "Happiness Score": "6.182",
+            "Economy": "1.206",
+            "Health": "0.884",
+            "Freedom": "0.483",
+            "Generosity": "0.117",
+            "Trust": "0.050"
+        },
+        {
+            "Country": "Uzbekistan",
+            "Happiness Rank": "41",
+            "Happiness Score": "6.174",
+            "Economy": "0.745",
+            "Health": "0.756",
+            "Freedom": "0.631",
+            "Generosity": "0.322",
+            "Trust": "0.240"
+        },
+        {
+            "Country": "Lithuania",
+            "Happiness Rank": "42",
+            "Happiness Score": "6.149",
+            "Economy": "1.238",
+            "Health": "0.818",
+            "Freedom": "0.291",
+            "Generosity": "0.043",
+            "Trust": "0.042"
+        },
+        {
+            "Country": "Colombia",
+            "Happiness Rank": "43",
+            "Happiness Score": "6.125",
+            "Economy": "0.985",
+            "Health": "0.841",
+            "Freedom": "0.470",
+            "Generosity": "0.099",
+            "Trust": "0.034"
+        },
+        {
+            "Country": "Slovenia",
+            "Happiness Rank": "44",
+            "Happiness Score": "6.118",
+            "Economy": "1.258",
+            "Health": "0.953",
+            "Freedom": "0.564",
+            "Generosity": "0.144",
+            "Trust": "0.057"
+        },
+        {
+            "Country": "Nicaragua",
+            "Happiness Rank": "45",
+            "Happiness Score": "6.105",
+            "Economy": "0.694",
+            "Health": "0.835",
+            "Freedom": "0.435",
+            "Generosity": "0.200",
+            "Trust": "0.127"
+        },
+        {
+            "Country": "Kosovo",
+            "Happiness Rank": "46",
+            "Happiness Score": "6.100",
+            "Economy": "0.882",
+            "Health": "0.758",
+            "Freedom": "0.489",
+            "Generosity": "0.262",
+            "Trust": "0.006"
+        },
+        {
+            "Country": "Argentina",
+            "Happiness Rank": "47",
+            "Happiness Score": "6.086",
+            "Economy": "1.092",
+            "Health": "0.881",
+            "Freedom": "0.471",
+            "Generosity": "0.066",
+            "Trust": "0.050"
+        },
+        {
+            "Country": "Romania",
+            "Happiness Rank": "48",
+            "Happiness Score": "6.070",
+            "Economy": "1.162",
+            "Health": "0.825",
+            "Freedom": "0.462",
+            "Generosity": "0.083",
+            "Trust": "0.005"
+        },
+        {
+            "Country": "Cyprus",
+            "Happiness Rank": "49",
+            "Happiness Score": "6.046",
+            "Economy": "1.263",
+            "Health": "1.042",
+            "Freedom": "0.406",
+            "Generosity": "0.190",
+            "Trust": "0.041"
+        },
+        {
+            "Country": "Ecuador",
+            "Happiness Rank": "50",
+            "Happiness Score": "6.028",
+            "Economy": "0.912",
+            "Health": "0.868",
+            "Freedom": "0.498",
+            "Generosity": "0.126",
+            "Trust": "0.087"
+        },
+        {
+            "Country": "Kuwait",
+            "Happiness Rank": "51",
+            "Happiness Score": "6.021",
+            "Economy": "1.500",
+            "Health": "0.808",
+            "Freedom": "0.493",
+            "Generosity": "0.142",
+            "Trust": "0.097"
+        },
+        {
+            "Country": "Thailand",
+            "Happiness Rank": "52",
+            "Happiness Score": "6.008",
+            "Economy": "1.050",
+            "Health": "0.828",
+            "Freedom": "0.557",
+            "Generosity": "0.359",
+            "Trust": "0.028"
+        },
+        {
+            "Country": "Latvia",
+            "Happiness Rank": "53",
+            "Happiness Score": "5.940",
+            "Economy": "1.187",
+            "Health": "0.812",
+            "Freedom": "0.264",
+            "Generosity": "0.075",
+            "Trust": "0.064"
+        },
+        {
+            "Country": "South Korea",
+            "Happiness Rank": "54",
+            "Happiness Score": "5.895",
+            "Economy": "1.301",
+            "Health": "1.036",
+            "Freedom": "0.159",
+            "Generosity": "0.175",
+            "Trust": "0.056"
+        },
+        {
+            "Country": "Estonia",
+            "Happiness Rank": "55",
+            "Happiness Score": "5.893",
+            "Economy": "1.237",
+            "Health": "0.874",
+            "Freedom": "0.495",
+            "Generosity": "0.103",
+            "Trust": "0.161"
+        },
+        {
+            "Country": "Jamaica",
+            "Happiness Rank": "56",
+            "Happiness Score": "5.890",
+            "Economy": "0.831",
+            "Health": "0.831",
+            "Freedom": "0.490",
+            "Generosity": "0.107",
+            "Trust": "0.028"
+        },
+        {
+            "Country": "Mauritius",
+            "Happiness Rank": "57",
+            "Happiness Score": "5.888",
+            "Economy": "1.120",
+            "Health": "0.798",
+            "Freedom": "0.498",
+            "Generosity": "0.215",
+            "Trust": "0.060"
+        },
+        {
+            "Country": "Japan",
+            "Happiness Rank": "58",
+            "Happiness Score": "5.886",
+            "Economy": "1.327",
+            "Health": "1.088",
+            "Freedom": "0.445",
+            "Generosity": "0.069",
+            "Trust": "0.140"
+        },
+        {
+            "Country": "Honduras",
+            "Happiness Rank": "59",
+            "Happiness Score": "5.860",
+            "Economy": "0.642",
+            "Health": "0.828",
+            "Freedom": "0.507",
+            "Generosity": "0.246",
+            "Trust": "0.078"
+        },
+        {
+            "Country": "Kazakhstan",
+            "Happiness Rank": "60",
+            "Happiness Score": "5.809",
+            "Economy": "1.173",
+            "Health": "0.729",
+            "Freedom": "0.410",
+            "Generosity": "0.146",
+            "Trust": "0.096"
+        },
+        {
+            "Country": "Bolivia",
+            "Happiness Rank": "61",
+            "Happiness Score": "5.779",
+            "Economy": "0.776",
+            "Health": "0.706",
+            "Freedom": "0.511",
+            "Generosity": "0.137",
+            "Trust": "0.064"
+        },
+        {
+            "Country": "Hungary",
+            "Happiness Rank": "62",
+            "Happiness Score": "5.758",
+            "Economy": "1.201",
+            "Health": "0.828",
+            "Freedom": "0.199",
+            "Generosity": "0.081",
+            "Trust": "0.020"
+        },
+        {
+            "Country": "Paraguay",
+            "Happiness Rank": "63",
+            "Happiness Score": "5.743",
+            "Economy": "0.855",
+            "Health": "0.777",
+            "Freedom": "0.514",
+            "Generosity": "0.184",
+            "Trust": "0.080"
+        },
+        {
+            "Country": "Northern Cyprus",
+            "Happiness Rank": "64",
+            "Happiness Score": "5.718",
+            "Economy": "1.263",
+            "Health": "1.042",
+            "Freedom": "0.417",
+            "Generosity": "0.191",
+            "Trust": "0.162"
+        },
+        {
+            "Country": "Peru",
+            "Happiness Rank": "65",
+            "Happiness Score": "5.697",
+            "Economy": "0.960",
+            "Health": "0.854",
+            "Freedom": "0.455",
+            "Generosity": "0.083",
+            "Trust": "0.027"
+        },
+        {
+            "Country": "Portugal",
+            "Happiness Rank": "66",
+            "Happiness Score": "5.693",
+            "Economy": "1.221",
+            "Health": "0.999",
+            "Freedom": "0.508",
+            "Generosity": "0.047",
+            "Trust": "0.025"
+        },
+        {
+            "Country": "Pakistan",
+            "Happiness Rank": "67",
+            "Happiness Score": "5.653",
+            "Economy": "0.677",
+            "Health": "0.535",
+            "Freedom": "0.313",
+            "Generosity": "0.220",
+            "Trust": "0.098"
+        },
+        {
+            "Country": "Russia",
+            "Happiness Rank": "68",
+            "Happiness Score": "5.648",
+            "Economy": "1.183",
+            "Health": "0.726",
+            "Freedom": "0.334",
+            "Generosity": "0.082",
+            "Trust": "0.031"
+        },
+        {
+            "Country": "Philippines",
+            "Happiness Rank": "69",
+            "Happiness Score": "5.631",
+            "Economy": "0.807",
+            "Health": "0.657",
+            "Freedom": "0.558",
+            "Generosity": "0.117",
+            "Trust": "0.107"
+        },
+        {
+            "Country": "Serbia",
+            "Happiness Rank": "70",
+            "Happiness Score": "5.603",
+            "Economy": "1.004",
+            "Health": "0.854",
+            "Freedom": "0.282",
+            "Generosity": "0.137",
+            "Trust": "0.039"
+        },
+        {
+            "Country": "Moldova",
+            "Happiness Rank": "71",
+            "Happiness Score": "5.529",
+            "Economy": "0.685",
+            "Health": "0.739",
+            "Freedom": "0.245",
+            "Generosity": "0.181",
+            "Trust": "0.000"
+        },
+        {
+            "Country": "Libya",
+            "Happiness Rank": "72",
+            "Happiness Score": "5.525",
+            "Economy": "1.044",
+            "Health": "0.673",
+            "Freedom": "0.416",
+            "Generosity": "0.133",
+            "Trust": "0.152"
+        },
+        {
+            "Country": "Montenegro",
+            "Happiness Rank": "73",
+            "Happiness Score": "5.523",
+            "Economy": "1.051",
+            "Health": "0.871",
+            "Freedom": "0.197",
+            "Generosity": "0.142",
+            "Trust": "0.080"
+        },
+        {
+            "Country": "Tajikistan",
+            "Happiness Rank": "74",
+            "Happiness Score": "5.467",
+            "Economy": "0.493",
+            "Health": "0.718",
+            "Freedom": "0.389",
+            "Generosity": "0.230",
+            "Trust": "0.144"
+        },
+        {
+            "Country": "Croatia",
+            "Happiness Rank": "75",
+            "Happiness Score": "5.432",
+            "Economy": "1.155",
+            "Health": "0.914",
+            "Freedom": "0.296",
+            "Generosity": "0.119",
+            "Trust": "0.022"
+        },
+        {
+            "Country": "Hong Kong",
+            "Happiness Rank": "76",
+            "Happiness Score": "5.430",
+            "Economy": "1.438",
+            "Health": "1.122",
+            "Freedom": "0.440",
+            "Generosity": "0.258",
+            "Trust": "0.287"
+        },
+        {
+            "Country": "Dominican Republic",
+            "Happiness Rank": "77",
+            "Happiness Score": "5.425",
+            "Economy": "1.015",
+            "Health": "0.779",
+            "Freedom": "0.497",
+            "Generosity": "0.113",
+            "Trust": "0.101"
+        },
+        {
+            "Country": "Bosnia and Herzegovina",
+            "Happiness Rank": "78",
+            "Happiness Score": "5.386",
+            "Economy": "0.945",
+            "Health": "0.845",
+            "Freedom": "0.212",
+            "Generosity": "0.263",
+            "Trust": "0.006"
+        },
+        {
+            "Country": "Turkey",
+            "Happiness Rank": "79",
+            "Happiness Score": "5.373",
+            "Economy": "1.183",
+            "Health": "0.808",
+            "Freedom": "0.195",
+            "Generosity": "0.083",
+            "Trust": "0.106"
+        },
+        {
+            "Country": "Malaysia",
+            "Happiness Rank": "80",
+            "Happiness Score": "5.339",
+            "Economy": "1.221",
+            "Health": "0.828",
+            "Freedom": "0.508",
+            "Generosity": "0.260",
+            "Trust": "0.024"
+        },
+        {
+            "Country": "Belarus",
+            "Happiness Rank": "81",
+            "Happiness Score": "5.323",
+            "Economy": "1.067",
+            "Health": "0.789",
+            "Freedom": "0.235",
+            "Generosity": "0.094",
+            "Trust": "0.142"
+        },
+        {
+            "Country": "Greece",
+            "Happiness Rank": "82",
+            "Happiness Score": "5.287",
+            "Economy": "1.181",
+            "Health": "0.999",
+            "Freedom": "0.067",
+            "Generosity": "0.000",
+            "Trust": "0.034"
+        },
+        {
+            "Country": "Mongolia",
+            "Happiness Rank": "83",
+            "Happiness Score": "5.285",
+            "Economy": "0.948",
+            "Health": "0.667",
+            "Freedom": "0.317",
+            "Generosity": "0.235",
+            "Trust": "0.038"
+        },
+        {
+            "Country": "North Macedonia",
+            "Happiness Rank": "84",
+            "Happiness Score": "5.274",
+            "Economy": "0.983",
+            "Health": "0.838",
+            "Freedom": "0.345",
+            "Generosity": "0.185",
+            "Trust": "0.034"
+        },
+        {
+            "Country": "Nigeria",
+            "Happiness Rank": "85",
+            "Happiness Score": "5.265",
+            "Economy": "0.696",
+            "Health": "0.245",
+            "Freedom": "0.426",
+            "Generosity": "0.215",
+            "Trust": "0.041"
+        },
+        {
+            "Country": "Kyrgyzstan",
+            "Happiness Rank": "86",
+            "Happiness Score": "5.261",
+            "Economy": "0.551",
+            "Health": "0.723",
+            "Freedom": "0.508",
+            "Generosity": "0.300",
+            "Trust": "0.023"
+        },
+        {
+            "Country": "Turkmenistan",
+            "Happiness Rank": "87",
+            "Happiness Score": "5.247",
+            "Economy": "1.052",
+            "Health": "0.657",
+            "Freedom": "0.394",
+            "Generosity": "0.244",
+            "Trust": "0.028"
+        },
+        {
+            "Country": "Algeria",
+            "Happiness Rank": "88",
+            "Happiness Score": "5.211",
+            "Economy": "1.002",
+            "Health": "0.785",
+            "Freedom": "0.086",
+            "Generosity": "0.073",
+            "Trust": "0.114"
+        },
+        {
+            "Country": "Morocco",
+            "Happiness Rank": "89",
+            "Happiness Score": "5.208",
+            "Economy": "0.801",
+            "Health": "0.782",
+            "Freedom": "0.418",
+            "Generosity": "0.036",
+            "Trust": "0.076"
+        },
+        {
+            "Country": "Azerbaijan",
+            "Happiness Rank": "90",
+            "Happiness Score": "5.208",
+            "Economy": "1.043",
+            "Health": "0.769",
+            "Freedom": "0.351",
+            "Generosity": "0.035",
+            "Trust": "0.182"
+        },
+        {
+            "Country": "Lebanon",
+            "Happiness Rank": "91",
+            "Happiness Score": "5.197",
+            "Economy": "0.987",
+            "Health": "0.815",
+            "Freedom": "0.216",
+            "Generosity": "0.166",
+            "Trust": "0.027"
+        },
+        {
+            "Country": "Indonesia",
+            "Happiness Rank": "92",
+            "Happiness Score": "5.192",
+            "Economy": "0.931",
+            "Health": "0.660",
+            "Freedom": "0.491",
+            "Generosity": "0.498",
+            "Trust": "0.028"
+        },
+        {
+            "Country": "China",
+            "Happiness Rank": "93",
+            "Happiness Score": "5.191",
+            "Economy": "1.029",
+            "Health": "0.893",
+            "Freedom": "0.521",
+            "Generosity": "0.058",
+            "Trust": "0.100"
+        },
+        {
+            "Country": "Vietnam",
+            "Happiness Rank": "94",
+            "Happiness Score": "5.175",
+            "Economy": "0.741",
+            "Health": "0.851",
+            "Freedom": "0.543",
+            "Generosity": "0.147",
+            "Trust": "0.073"
+        },
+        {
+            "Country": "Bhutan",
+            "Happiness Rank": "95",
+            "Happiness Score": "5.082",
+            "Economy": "0.813",
+            "Health": "0.604",
+            "Freedom": "0.457",
+            "Generosity": "0.370",
+            "Trust": "0.167"
+        },
+        {
+            "Country": "Cameroon",
+            "Happiness Rank": "96",
+            "Happiness Score": "5.044",
+            "Economy": "0.549",
+            "Health": "0.331",
+            "Freedom": "0.381",
+            "Generosity": "0.187",
+            "Trust": "0.037"
+        },
+        {
+            "Country": "Bulgaria",
+            "Happiness Rank": "97",
+            "Happiness Score": "5.011",
+            "Economy": "1.092",
+            "Health": "0.815",
+            "Freedom": "0.311",
+            "Generosity": "0.081",
+            "Trust": "0.004"
+        },
+        {
+            "Country": "Ghana",
+            "Happiness Rank": "98",
+            "Happiness Score": "4.996",
+            "Economy": "0.611",
+            "Health": "0.486",
+            "Freedom": "0.381",
+            "Generosity": "0.245",
+            "Trust": "0.040"
+        },
+        {
+            "Country": "Ivory Coast",
+            "Happiness Rank": "99",
+            "Happiness Score": "4.944",
+            "Economy": "0.569",
+            "Health": "0.232",
+            "Freedom": "0.352",
+            "Generosity": "0.154",
+            "Trust": "0.090"
+        },
+        {
+            "Country": "Nepal",
+            "Happiness Rank": "100",
+            "Happiness Score": "4.913",
+            "Economy": "0.446",
+            "Health": "0.677",
+            "Freedom": "0.439",
+            "Generosity": "0.285",
+            "Trust": "0.089"
+        },
+        {
+            "Country": "Jordan",
+            "Happiness Rank": "101",
+            "Happiness Score": "4.906",
+            "Economy": "0.837",
+            "Health": "0.815",
+            "Freedom": "0.383",
+            "Generosity": "0.110",
+            "Trust": "0.130"
+        },
+        {
+            "Country": "Benin",
+            "Happiness Rank": "102",
+            "Happiness Score": "4.883",
+            "Economy": "0.393",
+            "Health": "0.397",
+            "Freedom": "0.349",
+            "Generosity": "0.175",
+            "Trust": "0.082"
+        },
+        {
+            "Country": "Congo (Brazzaville)",
+            "Happiness Rank": "103",
+            "Happiness Score": "4.812",
+            "Economy": "0.673",
+            "Health": "0.508",
+            "Freedom": "0.372",
+            "Generosity": "0.105",
+            "Trust": "0.093"
+        },
+        {
+            "Country": "Gabon",
+            "Happiness Rank": "104",
+            "Happiness Score": "4.799",
+            "Economy": "1.057",
+            "Health": "0.571",
+            "Freedom": "0.295",
+            "Generosity": "0.043",
+            "Trust": "0.055"
+        },
+        {
+            "Country": "Laos",
+            "Happiness Rank": "105",
+            "Happiness Score": "4.796",
+            "Economy": "0.764",
+            "Health": "0.551",
+            "Freedom": "0.547",
+            "Generosity": "0.266",
+            "Trust": "0.164"
+        },
+        {
+            "Country": "South Africa",
+            "Happiness Rank": "106",
+            "Happiness Score": "4.722",
+            "Economy": "0.960",
+            "Health": "0.469",
+            "Freedom": "0.389",
+            "Generosity": "0.130",
+            "Trust": "0.055"
+        },
+        {
+            "Country": "Albania",
+            "Happiness Rank": "107",
+            "Happiness Score": "4.719",
+            "Economy": "0.947",
+            "Health": "0.874",
+            "Freedom": "0.383",
+            "Generosity": "0.178",
+            "Trust": "0.027"
+        },
+        {
+            "Country": "Venezuela",
+            "Happiness Rank": "108",
+            "Happiness Score": "4.707",
+            "Economy": "0.960",
+            "Health": "0.805",
+            "Freedom": "0.154",
+            "Generosity": "0.064",
+            "Trust": "0.047"
+        },
+        {
+            "Country": "Cambodia",
+            "Happiness Rank": "109",
+            "Happiness Score": "4.700",
+            "Economy": "0.574",
+            "Health": "0.637",
+            "Freedom": "0.609",
+            "Generosity": "0.232",
+            "Trust": "0.062"
+        },
+        {
+            "Country": "Palestinian Territories",
+            "Happiness Rank": "110",
+            "Happiness Score": "4.696",
+            "Economy": "0.657",
+            "Health": "0.672",
+            "Freedom": "0.225",
+            "Generosity": "0.103",
+            "Trust": "0.066"
+        },
+        {
+            "Country": "Senegal",
+            "Happiness Rank": "111",
+            "Happiness Score": "4.681",
+            "Economy": "0.450",
+            "Health": "0.571",
+            "Freedom": "0.292",
+            "Generosity": "0.153",
+            "Trust": "0.072"
+        },
+        {
+            "Country": "Somalia",
+            "Happiness Rank": "112",
+            "Happiness Score": "4.668",
+            "Economy": "0.000",
+            "Health": "0.268",
+            "Freedom": "0.559",
+            "Generosity": "0.243",
+            "Trust": "0.270"
+        },
+        {
+            "Country": "Namibia",
+            "Happiness Rank": "113",
+            "Happiness Score": "4.639",
+            "Economy": "0.879",
+            "Health": "0.477",
+            "Freedom": "0.401",
+            "Generosity": "0.070",
+            "Trust": "0.056"
+        },
+        {
+            "Country": "Niger",
+            "Happiness Rank": "114",
+            "Happiness Score": "4.628",
+            "Economy": "0.138",
+            "Health": "0.366",
+            "Freedom": "0.318",
+            "Generosity": "0.188",
+            "Trust": "0.102"
+        },
+        {
+            "Country": "Burkina Faso",
+            "Happiness Rank": "115",
+            "Happiness Score": "4.587",
+            "Economy": "0.331",
+            "Health": "0.380",
+            "Freedom": "0.255",
+            "Generosity": "0.177",
+            "Trust": "0.113"
+        },
+        {
+            "Country": "Armenia",
+            "Happiness Rank": "116",
+            "Happiness Score": "4.559",
+            "Economy": "0.850",
+            "Health": "0.815",
+            "Freedom": "0.283",
+            "Generosity": "0.095",
+            "Trust": "0.064"
+        },
+        {
+            "Country": "Iran",
+            "Happiness Rank": "117",
+            "Happiness Score": "4.548",
+            "Economy": "1.100",
+            "Health": "0.785",
+            "Freedom": "0.305",
+            "Generosity": "0.270",
+            "Trust": "0.125"
+        },
+        {
+            "Country": "Guinea",
+            "Happiness Rank": "118",
+            "Happiness Score": "4.534",
+            "Economy": "0.380",
+            "Health": "0.375",
+            "Freedom": "0.332",
+            "Generosity": "0.207",
+            "Trust": "0.086"
+        },
+        {
+            "Country": "Georgia",
+            "Happiness Rank": "119",
+            "Happiness Score": "4.519",
+            "Economy": "0.886",
+            "Health": "0.752",
+            "Freedom": "0.346",
+            "Generosity": "0.043",
+            "Trust": "0.164"
+        },
+        {
+            "Country": "Gambia",
+            "Happiness Rank": "120",
+            "Happiness Score": "4.516",
+            "Economy": "0.308",
+            "Health": "0.428",
+            "Freedom": "0.382",
+            "Generosity": "0.269",
+            "Trust": "0.167"
+        },
+        {
+            "Country": "Kenya",
+            "Happiness Rank": "121",
+            "Happiness Score": "4.509",
+            "Economy": "0.512",
+            "Health": "0.581",
+            "Freedom": "0.431",
+            "Generosity": "0.372",
+            "Trust": "0.053"
+        },
+        {
+            "Country": "Mauritania",
+            "Happiness Rank": "122",
+            "Happiness Score": "4.490",
+            "Economy": "0.570",
+            "Health": "0.489",
+            "Freedom": "0.066",
+            "Generosity": "0.106",
+            "Trust": "0.088"
+        },
+        {
+            "Country": "Mozambique",
+            "Happiness Rank": "123",
+            "Happiness Score": "4.466",
+            "Economy": "0.204",
+            "Health": "0.390",
+            "Freedom": "0.494",
+            "Generosity": "0.197",
+            "Trust": "0.138"
+        },
+        {
+            "Country": "Tunisia",
+            "Happiness Rank": "124",
+            "Happiness Score": "4.461",
+            "Economy": "0.921",
+            "Health": "0.815",
+            "Freedom": "0.167",
+            "Generosity": "0.059",
+            "Trust": "0.055"
+        },
+        {
+            "Country": "Bangladesh",
+            "Happiness Rank": "125",
+            "Happiness Score": "4.456",
+            "Economy": "0.562",
+            "Health": "0.723",
+            "Freedom": "0.527",
+            "Generosity": "0.166",
+            "Trust": "0.143"
+        },
+        {
+            "Country": "Iraq",
+            "Happiness Rank": "126",
+            "Happiness Score": "4.437",
+            "Economy": "1.043",
+            "Health": "0.574",
+            "Freedom": "0.241",
+            "Generosity": "0.148",
+            "Trust": "0.089"
+        },
+        {
+            "Country": "Congo (Kinshasa)",
+            "Happiness Rank": "127",
+            "Happiness Score": "4.418",
+            "Economy": "0.094",
+            "Health": "0.357",
+            "Freedom": "0.269",
+            "Generosity": "0.212",
+            "Trust": "0.053"
+        },
+        {
+            "Country": "Mali",
+            "Happiness Rank": "128",
+            "Happiness Score": "4.390",
+            "Economy": "0.385",
+            "Health": "0.308",
+            "Freedom": "0.327",
+            "Generosity": "0.153",
+            "Trust": "0.052"
+        },
+        {
+            "Country": "Sierra Leone",
+            "Happiness Rank": "129",
+            "Happiness Score": "4.374",
+            "Economy": "0.268",
+            "Health": "0.242",
+            "Freedom": "0.309",
+            "Generosity": "0.252",
+            "Trust": "0.045"
+        },
+        {
+            "Country": "Sri Lanka",
+            "Happiness Rank": "130",
+            "Happiness Score": "4.366",
+            "Economy": "0.949",
+            "Health": "0.831",
+            "Freedom": "0.470",
+            "Generosity": "0.244",
+            "Trust": "0.047"
+        },
+        {
+            "Country": "Myanmar",
+            "Happiness Rank": "131",
+            "Happiness Score": "4.360",
+            "Economy": "0.710",
+            "Health": "0.555",
+            "Freedom": "0.525",
+            "Generosity": "0.566",
+            "Trust": "0.172"
+        },
+        {
+            "Country": "Chad",
+            "Happiness Rank": "132",
+            "Happiness Score": "4.350",
+            "Economy": "0.350",
+            "Health": "0.192",
+            "Freedom": "0.174",
+            "Generosity": "0.198",
+            "Trust": "0.078"
+        },
+        {
+            "Country": "Ukraine",
+            "Happiness Rank": "133",
+            "Happiness Score": "4.332",
+            "Economy": "0.820",
+            "Health": "0.739",
+            "Freedom": "0.178",
+            "Generosity": "0.187",
+            "Trust": "0.010"
+        },
+        {
+            "Country": "Ethiopia",
+            "Happiness Rank": "134",
+            "Happiness Score": "4.286",
+            "Economy": "0.336",
+            "Health": "0.532",
+            "Freedom": "0.344",
+            "Generosity": "0.209",
+            "Trust": "0.100"
+        },
+        {
+            "Country": "Swaziland",
+            "Happiness Rank": "135",
+            "Happiness Score": "4.212",
+            "Economy": "0.811",
+            "Health": "0.000",
+            "Freedom": "0.313",
+            "Generosity": "0.074",
+            "Trust": "0.135"
+        },
+        {
+            "Country": "Uganda",
+            "Happiness Rank": "136",
+            "Happiness Score": "4.189",
+            "Economy": "0.332",
+            "Health": "0.443",
+            "Freedom": "0.356",
+            "Generosity": "0.252",
+            "Trust": "0.060"
+        },
+        {
+            "Country": "Egypt",
+            "Happiness Rank": "137",
+            "Happiness Score": "4.166",
+            "Economy": "0.913",
+            "Health": "0.644",
+            "Freedom": "0.241",
+            "Generosity": "0.076",
+            "Trust": "0.067"
+        },
+        {
+            "Country": "Zambia",
+            "Happiness Rank": "138",
+            "Happiness Score": "4.107",
+            "Economy": "0.578",
+            "Health": "0.426",
+            "Freedom": "0.431",
+            "Generosity": "0.247",
+            "Trust": "0.087"
+        },
+        {
+            "Country": "Togo",
+            "Happiness Rank": "139",
+            "Happiness Score": "4.085",
+            "Economy": "0.275",
+            "Health": "0.410",
+            "Freedom": "0.293",
+            "Generosity": "0.177",
+            "Trust": "0.085"
+        },
+        {
+            "Country": "India",
+            "Happiness Rank": "140",
+            "Happiness Score": "4.015",
+            "Economy": "0.755",
+            "Health": "0.588",
+            "Freedom": "0.498",
+            "Generosity": "0.200",
+            "Trust": "0.085"
+        },
+        {
+            "Country": "Liberia",
+            "Happiness Rank": "141",
+            "Happiness Score": "3.975",
+            "Economy": "0.073",
+            "Health": "0.443",
+            "Freedom": "0.370",
+            "Generosity": "0.233",
+            "Trust": "0.033"
+        },
+        {
+            "Country": "Comoros",
+            "Happiness Rank": "142",
+            "Happiness Score": "3.973",
+            "Economy": "0.274",
+            "Health": "0.505",
+            "Freedom": "0.142",
+            "Generosity": "0.275",
+            "Trust": "0.078"
+        },
+        {
+            "Country": "Madagascar",
+            "Happiness Rank": "143",
+            "Happiness Score": "3.933",
+            "Economy": "0.274",
+            "Health": "0.555",
+            "Freedom": "0.148",
+            "Generosity": "0.169",
+            "Trust": "0.041"
+        },
+        {
+            "Country": "Lesotho",
+            "Happiness Rank": "144",
+            "Happiness Score": "3.802",
+            "Economy": "0.489",
+            "Health": "0.168",
+            "Freedom": "0.359",
+            "Generosity": "0.107",
+            "Trust": "0.093"
+        },
+        {
+            "Country": "Burundi",
+            "Happiness Rank": "145",
+            "Happiness Score": "3.775",
+            "Economy": "0.046",
+            "Health": "0.380",
+            "Freedom": "0.220",
+            "Generosity": "0.176",
+            "Trust": "0.180"
+        },
+        {
+            "Country": "Zimbabwe",
+            "Happiness Rank": "146",
+            "Happiness Score": "3.663",
+            "Economy": "0.366",
+            "Health": "0.433",
+            "Freedom": "0.361",
+            "Generosity": "0.151",
+            "Trust": "0.089"
+        },
+        {
+            "Country": "Haiti",
+            "Happiness Rank": "147",
+            "Happiness Score": "3.597",
+            "Economy": "0.323",
+            "Health": "0.449",
+            "Freedom": "0.026",
+            "Generosity": "0.419",
+            "Trust": "0.110"
+        },
+        {
+            "Country": "Botswana",
+            "Happiness Rank": "148",
+            "Happiness Score": "3.488",
+            "Economy": "1.041",
+            "Health": "0.538",
+            "Freedom": "0.455",
+            "Generosity": "0.025",
+            "Trust": "0.100"
+        },
+        {
+            "Country": "Syria",
+            "Happiness Rank": "149",
+            "Happiness Score": "3.462",
+            "Economy": "0.619",
+            "Health": "0.440",
+            "Freedom": "0.013",
+            "Generosity": "0.331",
+            "Trust": "0.141"
+        },
+        {
+            "Country": "Malawi",
+            "Happiness Rank": "150",
+            "Happiness Score": "3.410",
+            "Economy": "0.191",
+            "Health": "0.495",
+            "Freedom": "0.443",
+            "Generosity": "0.218",
+            "Trust": "0.089"
+        },
+        {
+            "Country": "Yemen",
+            "Happiness Rank": "151",
+            "Happiness Score": "3.380",
+            "Economy": "0.287",
+            "Health": "0.463",
+            "Freedom": "0.143",
+            "Generosity": "0.108",
+            "Trust": "0.077"
+        },
+        {
+            "Country": "Rwanda",
+            "Happiness Rank": "152",
+            "Happiness Score": "3.334",
+            "Economy": "0.359",
+            "Health": "0.614",
+            "Freedom": "0.555",
+            "Generosity": "0.217",
+            "Trust": "0.411"
+        },
+        {
+            "Country": "Tanzania",
+            "Happiness Rank": "153",
+            "Happiness Score": "3.231",
+            "Economy": "0.476",
+            "Health": "0.499",
+            "Freedom": "0.417",
+            "Generosity": "0.276",
+            "Trust": "0.147"
+        },
+        {
+            "Country": "Afghanistan",
+            "Happiness Rank": "154",
+            "Happiness Score": "3.203",
+            "Economy": "0.350",
+            "Health": "0.361",
+            "Freedom": "0.000",
+            "Generosity": "0.158",
+            "Trust": "0.025"
+        },
+        {
+            "Country": "Central African Republic",
+            "Happiness Rank": "155",
+            "Happiness Score": "3.083",
+            "Economy": "0.026",
+            "Health": "0.105",
+            "Freedom": "0.225",
+            "Generosity": "0.235",
+            "Trust": "0.035"
+        },
+        {
+            "Country": "South Sudan",
+            "Happiness Rank": "156",
+            "Happiness Score": "2.853",
+            "Economy": "0.306",
+            "Health": "0.295",
+            "Freedom": "0.010",
+            "Generosity": "0.202",
+            "Trust": "0.091"
+        }
+    ]
+}

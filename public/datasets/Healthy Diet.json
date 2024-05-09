@@ -1,0 +1,621 @@
+{
+    "name": "Healthy Diet",
+    "source": "predefined",
+    "schema": {
+        "Country": "string",
+        "Can't afford healty diet": "number"
+    },
+    "metadata": {
+        "Can't afford healty diet": {
+            "betterWhen": "lower",
+            "unit": "%",
+            "description": "Percentage of the nation who can not afford healty food."
+        }
+    },
+    "data": [
+        {
+            "Country": "Albania",
+            "Can't afford healty diet": "22.2"
+        },
+        {
+            "Country": "Algeria",
+            "Can't afford healty diet": "29.2"
+        },
+        {
+            "Country": "Angola",
+            "Can't afford healty diet": "83.9"
+        },
+        {
+            "Country": "Armenia",
+            "Can't afford healty diet": "40"
+        },
+        {
+            "Country": "Australia",
+            "Can't afford healty diet": "0.7"
+        },
+        {
+            "Country": "Austria",
+            "Can't afford healty diet": "0.8"
+        },
+        {
+            "Country": "Azerbaijan",
+            "Can't afford healty diet": "0"
+        },
+        {
+            "Country": "Bangladesh",
+            "Can't afford healty diet": "70.8"
+        },
+        {
+            "Country": "Belarus",
+            "Can't afford healty diet": "1.4"
+        },
+        {
+            "Country": "Belgium",
+            "Can't afford healty diet": "0.2"
+        },
+        {
+            "Country": "Belize",
+            "Can't afford healty diet": "49.4"
+        },
+        {
+            "Country": "Benin",
+            "Can't afford healty diet": "82.4"
+        },
+        {
+            "Country": "Bhutan",
+            "Can't afford healty diet": "42.3"
+        },
+        {
+            "Country": "Bolivia",
+            "Can't afford healty diet": "16"
+        },
+        {
+            "Country": "Bosnia and Herzegovina",
+            "Can't afford healty diet": "3.9"
+        },
+        {
+            "Country": "Botswana",
+            "Can't afford healty diet": "59.8"
+        },
+        {
+            "Country": "Brazil",
+            "Can't afford healty diet": "18.8"
+        },
+        {
+            "Country": "Bulgaria",
+            "Can't afford healty diet": "8.1"
+        },
+        {
+            "Country": "Burkina Faso",
+            "Can't afford healty diet": "76.8"
+        },
+        {
+            "Country": "Burundi",
+            "Can't afford healty diet": "95"
+        },
+        {
+            "Country": "Cameroon",
+            "Can't afford healty diet": "58.7"
+        },
+        {
+            "Country": "Canada",
+            "Can't afford healty diet": "0.7"
+        },
+        {
+            "Country": "Cape Verde",
+            "Can't afford healty diet": "39.7"
+        },
+        {
+            "Country": "Central African Republic",
+            "Can't afford healty diet": "94.4"
+        },
+        {
+            "Country": "Chad",
+            "Can't afford healty diet": "79.3"
+        },
+        {
+            "Country": "Chile",
+            "Can't afford healty diet": "4.7"
+        },
+        {
+            "Country": "China",
+            "Can't afford healty diet": "12.2"
+        },
+        {
+            "Country": "Colombia",
+            "Can't afford healty diet": "25.4"
+        },
+        {
+            "Country": "Congo",
+            "Can't afford healty diet": "90"
+        },
+        {
+            "Country": "Costa Rica",
+            "Can't afford healty diet": "16.3"
+        },
+        {
+            "Country": "Cote d'Ivoire",
+            "Can't afford healty diet": "72"
+        },
+        {
+            "Country": "Croatia",
+            "Can't afford healty diet": "3.4"
+        },
+        {
+            "Country": "Cyprus",
+            "Can't afford healty diet": "0.3"
+        },
+        {
+            "Country": "Czechia",
+            "Can't afford healty diet": "0.2"
+        },
+        {
+            "Country": "Democratic Republic of Congo",
+            "Can't afford healty diet": "88.9"
+        },
+        {
+            "Country": "Denmark",
+            "Can't afford healty diet": "0.4"
+        },
+        {
+            "Country": "Djibouti",
+            "Can't afford healty diet": "65.2"
+        },
+        {
+            "Country": "Dominican Republic",
+            "Can't afford healty diet": "20.6"
+        },
+        {
+            "Country": "East Asia & Pacific (WB)",
+            "Can't afford healty diet": "22.8"
+        },
+        {
+            "Country": "Ecuador",
+            "Can't afford healty diet": "19.8"
+        },
+        {
+            "Country": "Egypt",
+            "Can't afford healty diet": "67.2"
+        },
+        {
+            "Country": "Estonia",
+            "Can't afford healty diet": "1.3"
+        },
+        {
+            "Country": "Eswatini",
+            "Can't afford healty diet": "75"
+        },
+        {
+            "Country": "Ethiopia",
+            "Can't afford healty diet": "83.4"
+        },
+        {
+            "Country": "Fiji",
+            "Can't afford healty diet": "52.9"
+        },
+        {
+            "Country": "Finland",
+            "Can't afford healty diet": "0.1"
+        },
+        {
+            "Country": "France",
+            "Can't afford healty diet": "0.3"
+        },
+        {
+            "Country": "Gabon",
+            "Can't afford healty diet": "28.4"
+        },
+        {
+            "Country": "Gambia",
+            "Can't afford healty diet": "69.6"
+        },
+        {
+            "Country": "Germany",
+            "Can't afford healty diet": "0.2"
+        },
+        {
+            "Country": "Ghana",
+            "Can't afford healty diet": "77"
+        },
+        {
+            "Country": "Greece",
+            "Can't afford healty diet": "2.9"
+        },
+        {
+            "Country": "Guinea",
+            "Can't afford healty diet": "88.8"
+        },
+        {
+            "Country": "Guinea-Bissau",
+            "Can't afford healty diet": "82.9"
+        },
+        {
+            "Country": "Guyana",
+            "Can't afford healty diet": "42"
+        },
+        {
+            "Country": "Haiti",
+            "Can't afford healty diet": "86.9"
+        },
+        {
+            "Country": "High-income countries",
+            "Can't afford healty diet": "1.5"
+        },
+        {
+            "Country": "Honduras",
+            "Can't afford healty diet": "46.5"
+        },
+        {
+            "Country": "Hungary",
+            "Can't afford healty diet": "2.2"
+        },
+        {
+            "Country": "Iceland",
+            "Can't afford healty diet": "0"
+        },
+        {
+            "Country": "India",
+            "Can't afford healty diet": "71.4"
+        },
+        {
+            "Country": "Indonesia",
+            "Can't afford healty diet": "69.5"
+        },
+        {
+            "Country": "Iran",
+            "Can't afford healty diet": "25.7"
+        },
+        {
+            "Country": "Iraq",
+            "Can't afford healty diet": "15.5"
+        },
+        {
+            "Country": "Ireland",
+            "Can't afford healty diet": "0.1"
+        },
+        {
+            "Country": "Israel",
+            "Can't afford healty diet": "1.2"
+        },
+        {
+            "Country": "Italy",
+            "Can't afford healty diet": "2.1"
+        },
+        {
+            "Country": "Jamaica",
+            "Can't afford healty diet": "57.9"
+        },
+        {
+            "Country": "Japan",
+            "Can't afford healty diet": "2.5"
+        },
+        {
+            "Country": "Jordan",
+            "Can't afford healty diet": "6.5"
+        },
+        {
+            "Country": "Kazakhstan",
+            "Can't afford healty diet": "1.6"
+        },
+        {
+            "Country": "Kenya",
+            "Can't afford healty diet": "73.7"
+        },
+        {
+            "Country": "Kyrgyzstan",
+            "Can't afford healty diet": "45"
+        },
+        {
+            "Country": "Laos",
+            "Can't afford healty diet": "72.7"
+        },
+        {
+            "Country": "Latin America & Caribbean (WB)",
+            "Can't afford healty diet": "20.7"
+        },
+        {
+            "Country": "Latvia",
+            "Can't afford healty diet": "1.9"
+        },
+        {
+            "Country": "Lesotho",
+            "Can't afford healty diet": "83.8"
+        },
+        {
+            "Country": "Liberia",
+            "Can't afford healty diet": "91.4"
+        },
+        {
+            "Country": "Lithuania",
+            "Can't afford healty diet": "1.2"
+        },
+        {
+            "Country": "Low-income countries",
+            "Can't afford healty diet": "86.7"
+        },
+        {
+            "Country": "Lower-middle-income countries",
+            "Can't afford healty diet": "68.3"
+        },
+        {
+            "Country": "Luxembourg",
+            "Can't afford healty diet": "0.1"
+        },
+        {
+            "Country": "Madagascar",
+            "Can't afford healty diet": "97.1"
+        },
+        {
+            "Country": "Malawi",
+            "Can't afford healty diet": "95.4"
+        },
+        {
+            "Country": "Malaysia",
+            "Can't afford healty diet": "2.1"
+        },
+        {
+            "Country": "Maldives",
+            "Can't afford healty diet": "1.1"
+        },
+        {
+            "Country": "Mali",
+            "Can't afford healty diet": "69.7"
+        },
+        {
+            "Country": "Malta",
+            "Can't afford healty diet": "0.7"
+        },
+        {
+            "Country": "Mauritania",
+            "Can't afford healty diet": "59.7"
+        },
+        {
+            "Country": "Mauritius",
+            "Can't afford healty diet": "8.6"
+        },
+        {
+            "Country": "Mexico",
+            "Can't afford healty diet": "21.6"
+        },
+        {
+            "Country": "Middle East & North Africa (WB)",
+            "Can't afford healty diet": "33.8"
+        },
+        {
+            "Country": "Moldova",
+            "Can't afford healty diet": "3.3"
+        },
+        {
+            "Country": "Mongolia",
+            "Can't afford healty diet": "55"
+        },
+        {
+            "Country": "Montenegro",
+            "Can't afford healty diet": "17.4"
+        },
+        {
+            "Country": "Morocco",
+            "Can't afford healty diet": "15.7"
+        },
+        {
+            "Country": "Mozambique",
+            "Can't afford healty diet": "90.8"
+        },
+        {
+            "Country": "Myanmar",
+            "Can't afford healty diet": "63.3"
+        },
+        {
+            "Country": "Namibia",
+            "Can't afford healty diet": "56.6"
+        },
+        {
+            "Country": "Nepal",
+            "Can't afford healty diet": "75"
+        },
+        {
+            "Country": "Netherlands",
+            "Can't afford healty diet": "0.2"
+        },
+        {
+            "Country": "Nicaragua",
+            "Can't afford healty diet": "35.6"
+        },
+        {
+            "Country": "Niger",
+            "Can't afford healty diet": "90.4"
+        },
+        {
+            "Country": "Nigeria",
+            "Can't afford healty diet": "91.8"
+        },
+        {
+            "Country": "North America (WB)",
+            "Can't afford healty diet": "1.4"
+        },
+        {
+            "Country": "North Macedonia",
+            "Can't afford healty diet": "16.6"
+        },
+        {
+            "Country": "Norway",
+            "Can't afford healty diet": "0.4"
+        },
+        {
+            "Country": "Pakistan",
+            "Can't afford healty diet": "81.4"
+        },
+        {
+            "Country": "Palestine",
+            "Can't afford healty diet": "18"
+        },
+        {
+            "Country": "Panama",
+            "Can't afford healty diet": "15.2"
+        },
+        {
+            "Country": "Paraguay",
+            "Can't afford healty diet": "17.7"
+        },
+        {
+            "Country": "Peru",
+            "Can't afford healty diet": "21.4"
+        },
+        {
+            "Country": "Philippines",
+            "Can't afford healty diet": "68.4"
+        },
+        {
+            "Country": "Poland",
+            "Can't afford healty diet": "1.1"
+        },
+        {
+            "Country": "Portugal",
+            "Can't afford healty diet": "0.5"
+        },
+        {
+            "Country": "Romania",
+            "Can't afford healty diet": "8.8"
+        },
+        {
+            "Country": "Russia",
+            "Can't afford healty diet": "2.5"
+        },
+        {
+            "Country": "Rwanda",
+            "Can't afford healty diet": "81.9"
+        },
+        {
+            "Country": "Saint Lucia",
+            "Can't afford healty diet": "21.2"
+        },
+        {
+            "Country": "Sao Tome and Principe",
+            "Can't afford healty diet": "76.7"
+        },
+        {
+            "Country": "Senegal",
+            "Can't afford healty diet": "45.9"
+        },
+        {
+            "Country": "Serbia",
+            "Can't afford healty diet": "16.2"
+        },
+        {
+            "Country": "Seychelles",
+            "Can't afford healty diet": "7.2"
+        },
+        {
+            "Country": "Sierra Leone",
+            "Can't afford healty diet": "81.3"
+        },
+        {
+            "Country": "Slovakia",
+            "Can't afford healty diet": "1.4"
+        },
+        {
+            "Country": "Slovenia",
+            "Can't afford healty diet": "0.1"
+        },
+        {
+            "Country": "South Africa",
+            "Can't afford healty diet": "65.1"
+        },
+        {
+            "Country": "South Asia (WB)",
+            "Can't afford healty diet": "72.3"
+        },
+        {
+            "Country": "South Korea",
+            "Can't afford healty diet": "1.7"
+        },
+        {
+            "Country": "Spain",
+            "Can't afford healty diet": "1.8"
+        },
+        {
+            "Country": "Sri Lanka",
+            "Can't afford healty diet": "48.5"
+        },
+        {
+            "Country": "Sub-Saharan Africa (WB)",
+            "Can't afford healty diet": "83"
+        },
+        {
+            "Country": "Sudan",
+            "Can't afford healty diet": "93.6"
+        },
+        {
+            "Country": "Suriname",
+            "Can't afford healty diet": "43.9"
+        },
+        {
+            "Country": "Sweden",
+            "Can't afford healty diet": "0.6"
+        },
+        {
+            "Country": "Switzerland",
+            "Can't afford healty diet": "0"
+        },
+        {
+            "Country": "Tajikistan",
+            "Can't afford healty diet": "44"
+        },
+        {
+            "Country": "Tanzania",
+            "Can't afford healty diet": "84.8"
+        },
+        {
+            "Country": "Thailand",
+            "Can't afford healty diet": "19.1"
+        },
+        {
+            "Country": "Trinidad and Tobago",
+            "Can't afford healty diet": "7.1"
+        },
+        {
+            "Country": "Tunisia",
+            "Can't afford healty diet": "14.3"
+        },
+        {
+            "Country": "Turkey",
+            "Can't afford healty diet": "8.9"
+        },
+        {
+            "Country": "Uganda",
+            "Can't afford healty diet": "82.9"
+        },
+        {
+            "Country": "United Arab Emirates",
+            "Can't afford healty diet": "0"
+        },
+        {
+            "Country": "United Kingdom",
+            "Can't afford healty diet": "0.5"
+        },
+        {
+            "Country": "United States",
+            "Can't afford healty diet": "1.5"
+        },
+        {
+            "Country": "Upper-middle-income countries",
+            "Can't afford healty diet": "14.4"
+        },
+        {
+            "Country": "Uruguay",
+            "Can't afford healty diet": "3.3"
+        },
+        {
+            "Country": "Vietnam",
+            "Can't afford healty diet": "19.8"
+        },
+        {
+            "Country": "World",
+            "Can't afford healty diet": "41.2"
+        },
+        {
+            "Country": "Zambia",
+            "Can't afford healty diet": "88.6"
+        }
+    ]
+}

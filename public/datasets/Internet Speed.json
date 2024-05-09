@@ -1,0 +1,1284 @@
+{
+    "name": "Internet Speed",
+    "source": "predefined",
+    "schema": {
+        "Country": "string",
+        "Broadband Speed Rank": "number",
+        "Broadband Mbps": "number",
+        "Mobile Speed Rank": "number",
+        "Mobile Mbps": "number"
+    },
+    "metadata": {
+        "Broadband Speed Rank": {
+            "betterWhen": "lower",
+            "description": "Broadband Internet Speed Rank based on Broadband Mbps."
+        },
+        "Broadband Mbps": {
+            "unit": " Mbps",
+            "description": "Broadband Internet Speed in Megabits per second."
+        },
+        "Mobile Speed Rank": {
+            "betterWhen": "lower",
+            "description": "Mobile Internet Speed Rank based on Mobile Mbps."
+        },
+        "Mobile Mbps": {
+            "unit": " Mbps",
+            "description": "Mobile Internet Speed in Megabits per second."
+        }
+    },
+    "data": [
+        {
+            "Country": "Monaco",
+            "Broadband Speed Rank": "1.0",
+            "Broadband Mbps": "192.68",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Singapore",
+            "Broadband Speed Rank": "2.0",
+            "Broadband Mbps": "192.01",
+            "Mobile Speed Rank": "19.0",
+            "Mobile Mbps": "64.92"
+        },
+        {
+            "Country": "Chile",
+            "Broadband Speed Rank": "3.0",
+            "Broadband Mbps": "189.36",
+            "Mobile Speed Rank": "109.0",
+            "Mobile Mbps": "15.5"
+        },
+        {
+            "Country": "Thailand",
+            "Broadband Speed Rank": "4.0",
+            "Broadband Mbps": "184.03",
+            "Mobile Speed Rank": "56.0",
+            "Mobile Mbps": "32.38"
+        },
+        {
+            "Country": "Hong Kong (SAR)",
+            "Broadband Speed Rank": "5.0",
+            "Broadband Mbps": "173.42",
+            "Mobile Speed Rank": "38.0",
+            "Mobile Mbps": "45.86"
+        },
+        {
+            "Country": "Denmark",
+            "Broadband Speed Rank": "6.0",
+            "Broadband Mbps": "163.6",
+            "Mobile Speed Rank": "8.0",
+            "Mobile Mbps": "87.11"
+        },
+        {
+            "Country": "Macau (SAR)",
+            "Broadband Speed Rank": "7.0",
+            "Broadband Mbps": "156.73",
+            "Mobile Speed Rank": "35.0",
+            "Mobile Mbps": "47.56"
+        },
+        {
+            "Country": "China",
+            "Broadband Speed Rank": "8.0",
+            "Broadband Mbps": "155.79",
+            "Mobile Speed Rank": "9.0",
+            "Mobile Mbps": "85.83"
+        },
+        {
+            "Country": "United States",
+            "Broadband Speed Rank": "9.0",
+            "Broadband Mbps": "143.76",
+            "Mobile Speed Rank": "21.0",
+            "Mobile Mbps": "62.47"
+        },
+        {
+            "Country": "Spain",
+            "Broadband Speed Rank": "10.0",
+            "Broadband Mbps": "134.19",
+            "Mobile Speed Rank": "49.0",
+            "Mobile Mbps": "35.59"
+        },
+        {
+            "Country": "Romania",
+            "Broadband Speed Rank": "11.0",
+            "Broadband Mbps": "127.07",
+            "Mobile Speed Rank": "52.0",
+            "Mobile Mbps": "33.8"
+        },
+        {
+            "Country": "Liechtenstein",
+            "Broadband Speed Rank": "12.0",
+            "Broadband Mbps": "118.19",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "New Zealand",
+            "Broadband Speed Rank": "13.0",
+            "Broadband Mbps": "113.14",
+            "Mobile Speed Rank": "34.0",
+            "Mobile Mbps": "49.32"
+        },
+        {
+            "Country": "Japan",
+            "Broadband Speed Rank": "14.0",
+            "Broadband Mbps": "112.9",
+            "Mobile Speed Rank": "42.0",
+            "Mobile Mbps": "42.9"
+        },
+        {
+            "Country": "United Arab Emirates",
+            "Broadband Speed Rank": "15.0",
+            "Broadband Mbps": "111.79",
+            "Mobile Speed Rank": "1.0",
+            "Mobile Mbps": "135.62"
+        },
+        {
+            "Country": "Switzerland",
+            "Broadband Speed Rank": "16.0",
+            "Broadband Mbps": "110.3",
+            "Mobile Speed Rank": "15.0",
+            "Mobile Mbps": "76.53"
+        },
+        {
+            "Country": "Norway",
+            "Broadband Speed Rank": "17.0",
+            "Broadband Mbps": "105.61",
+            "Mobile Speed Rank": "2.0",
+            "Mobile Mbps": "118.44"
+        },
+        {
+            "Country": "Netherlands",
+            "Broadband Speed Rank": "18.0",
+            "Broadband Mbps": "102.6",
+            "Mobile Speed Rank": "5.0",
+            "Mobile Mbps": "107.24"
+        },
+        {
+            "Country": "Sweden",
+            "Broadband Speed Rank": "19.0",
+            "Broadband Mbps": "102.08",
+            "Mobile Speed Rank": "23.0",
+            "Mobile Mbps": "60.3"
+        },
+        {
+            "Country": "Hungary",
+            "Broadband Speed Rank": "20.0",
+            "Broadband Mbps": "100.65",
+            "Mobile Speed Rank": "44.0",
+            "Mobile Mbps": "39.96"
+        },
+        {
+            "Country": "Canada",
+            "Broadband Speed Rank": "21.0",
+            "Broadband Mbps": "100.06",
+            "Mobile Speed Rank": "16.0",
+            "Mobile Mbps": "76.32"
+        },
+        {
+            "Country": "Portugal",
+            "Broadband Speed Rank": "22.0",
+            "Broadband Mbps": "99.62",
+            "Mobile Speed Rank": "11.0",
+            "Mobile Mbps": "80.05"
+        },
+        {
+            "Country": "South Korea",
+            "Broadband Speed Rank": "23.0",
+            "Broadband Mbps": "99.59",
+            "Mobile Speed Rank": "4.0",
+            "Mobile Mbps": "109.14"
+        },
+        {
+            "Country": "Kuwait",
+            "Broadband Speed Rank": "24.0",
+            "Broadband Mbps": "96.93",
+            "Mobile Speed Rank": "10.0",
+            "Mobile Mbps": "81.33"
+        },
+        {
+            "Country": "Taiwan",
+            "Broadband Speed Rank": "25.0",
+            "Broadband Mbps": "96.82",
+            "Mobile Speed Rank": "28.0",
+            "Mobile Mbps": "54.03"
+        },
+        {
+            "Country": "Panama",
+            "Broadband Speed Rank": "26.0",
+            "Broadband Mbps": "94.51",
+            "Mobile Speed Rank": "100.0",
+            "Mobile Mbps": "16.71"
+        },
+        {
+            "Country": "France",
+            "Broadband Speed Rank": "27.0",
+            "Broadband Mbps": "94.34",
+            "Mobile Speed Rank": "24.0",
+            "Mobile Mbps": "56.45"
+        },
+        {
+            "Country": "Andorra",
+            "Broadband Speed Rank": "28.0",
+            "Broadband Mbps": "92.42",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Moldova",
+            "Broadband Speed Rank": "29.0",
+            "Broadband Mbps": "92.4",
+            "Mobile Speed Rank": "53.0",
+            "Mobile Mbps": "33.78"
+        },
+        {
+            "Country": "Luxembourg",
+            "Broadband Speed Rank": "30.0",
+            "Broadband Mbps": "92.1",
+            "Mobile Speed Rank": "12.0",
+            "Mobile Mbps": "76.82"
+        },
+        {
+            "Country": "Malta",
+            "Broadband Speed Rank": "31.0",
+            "Broadband Mbps": "90.36",
+            "Mobile Speed Rank": "36.0",
+            "Mobile Mbps": "47.08"
+        },
+        {
+            "Country": "Finland",
+            "Broadband Speed Rank": "32.0",
+            "Broadband Mbps": "89.6",
+            "Mobile Speed Rank": "20.0",
+            "Mobile Mbps": "64.78"
+        },
+        {
+            "Country": "Israel",
+            "Broadband Speed Rank": "33.0",
+            "Broadband Mbps": "87.98",
+            "Mobile Speed Rank": "75.0",
+            "Mobile Mbps": "23.74"
+        },
+        {
+            "Country": "Brazil",
+            "Broadband Speed Rank": "34.0",
+            "Broadband Mbps": "87.52",
+            "Mobile Speed Rank": "74.0",
+            "Mobile Mbps": "23.84"
+        },
+        {
+            "Country": "Poland",
+            "Broadband Speed Rank": "35.0",
+            "Broadband Mbps": "86.2",
+            "Mobile Speed Rank": "46.0",
+            "Mobile Mbps": "37.35"
+        },
+        {
+            "Country": "Uruguay",
+            "Broadband Speed Rank": "36.0",
+            "Broadband Mbps": "85.61",
+            "Mobile Speed Rank": "57.0",
+            "Mobile Mbps": "32.28"
+        },
+        {
+            "Country": "Malaysia",
+            "Broadband Speed Rank": "37.0",
+            "Broadband Mbps": "84.18",
+            "Mobile Speed Rank": "65.0",
+            "Mobile Mbps": "26.91"
+        },
+        {
+            "Country": "Belgium",
+            "Broadband Speed Rank": "38.0",
+            "Broadband Mbps": "81.1",
+            "Mobile Speed Rank": "29.0",
+            "Mobile Mbps": "52.32"
+        },
+        {
+            "Country": "Lithuania",
+            "Broadband Speed Rank": "39.0",
+            "Broadband Mbps": "79.81",
+            "Mobile Speed Rank": "41.0",
+            "Mobile Mbps": "44.11"
+        },
+        {
+            "Country": "Trinidad and Tobago",
+            "Broadband Speed Rank": "40.0",
+            "Broadband Mbps": "79.35",
+            "Mobile Speed Rank": "63.0",
+            "Mobile Mbps": "28.31"
+        },
+        {
+            "Country": "Saudi Arabia",
+            "Broadband Speed Rank": "41.0",
+            "Broadband Mbps": "79.32",
+            "Mobile Speed Rank": "6.0",
+            "Mobile Mbps": "94.25"
+        },
+        {
+            "Country": "Saint Lucia",
+            "Broadband Speed Rank": "42.0",
+            "Broadband Mbps": "73.7",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Qatar",
+            "Broadband Speed Rank": "43.0",
+            "Broadband Mbps": "72.22",
+            "Mobile Speed Rank": "3.0",
+            "Mobile Mbps": "109.86"
+        },
+        {
+            "Country": "Germany",
+            "Broadband Speed Rank": "44.0",
+            "Broadband Mbps": "69.52",
+            "Mobile Speed Rank": "30.0",
+            "Mobile Mbps": "52.3"
+        },
+        {
+            "Country": "Barbados",
+            "Broadband Speed Rank": "45.0",
+            "Broadband Mbps": "68.83",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "San Marino",
+            "Broadband Speed Rank": "46.0",
+            "Broadband Mbps": "68.29",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Vietnam",
+            "Broadband Speed Rank": "47.0",
+            "Broadband Mbps": "67.5",
+            "Mobile Speed Rank": "45.0",
+            "Mobile Mbps": "39.01"
+        },
+        {
+            "Country": "Ireland",
+            "Broadband Speed Rank": "48.0",
+            "Broadband Mbps": "66.39",
+            "Mobile Speed Rank": "71.0",
+            "Mobile Mbps": "26.06"
+        },
+        {
+            "Country": "Latvia",
+            "Broadband Speed Rank": "49.0",
+            "Broadband Mbps": "64.93",
+            "Mobile Speed Rank": "51.0",
+            "Mobile Mbps": "34.67"
+        },
+        {
+            "Country": "Russia",
+            "Broadband Speed Rank": "50.0",
+            "Broadband Mbps": "63.76",
+            "Mobile Speed Rank": "89.0",
+            "Mobile Mbps": "19.18"
+        },
+        {
+            "Country": "Slovenia",
+            "Broadband Speed Rank": "51.0",
+            "Broadband Mbps": "63.63",
+            "Mobile Speed Rank": "31.0",
+            "Mobile Mbps": "51.33"
+        },
+        {
+            "Country": "United Kingdom",
+            "Broadband Speed Rank": "52.0",
+            "Broadband Mbps": "61.69",
+            "Mobile Speed Rank": "33.0",
+            "Mobile Mbps": "49.41"
+        },
+        {
+            "Country": "Colombia",
+            "Broadband Speed Rank": "53.0",
+            "Broadband Mbps": "59.97",
+            "Mobile Speed Rank": "118.0",
+            "Mobile Mbps": "12.98"
+        },
+        {
+            "Country": "Saint Vincent and the Grenadines",
+            "Broadband Speed Rank": "54.0",
+            "Broadband Mbps": "58.26",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Bulgaria",
+            "Broadband Speed Rank": "55.0",
+            "Broadband Mbps": "55.9",
+            "Mobile Speed Rank": "7.0",
+            "Mobile Mbps": "87.82"
+        },
+        {
+            "Country": "Paraguay",
+            "Broadband Speed Rank": "56.0",
+            "Broadband Mbps": "54.58",
+            "Mobile Speed Rank": "106.0",
+            "Mobile Mbps": "15.97"
+        },
+        {
+            "Country": "Ukraine",
+            "Broadband Speed Rank": "57.0",
+            "Broadband Mbps": "52.5",
+            "Mobile Speed Rank": "62.0",
+            "Mobile Mbps": "29.06"
+        },
+        {
+            "Country": "Estonia",
+            "Broadband Speed Rank": "58.0",
+            "Broadband Mbps": "52.3",
+            "Mobile Speed Rank": "27.0",
+            "Mobile Mbps": "54.57"
+        },
+        {
+            "Country": "Austria",
+            "Broadband Speed Rank": "59.0",
+            "Broadband Mbps": "51.62",
+            "Mobile Speed Rank": "26.0",
+            "Mobile Mbps": "54.69"
+        },
+        {
+            "Country": "Dominica",
+            "Broadband Speed Rank": "60.0",
+            "Broadband Mbps": "50.96",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Australia",
+            "Broadband Speed Rank": "61.0",
+            "Broadband Mbps": "50.89",
+            "Mobile Speed Rank": "18.0",
+            "Mobile Mbps": "68.35"
+        },
+        {
+            "Country": "Montenegro",
+            "Broadband Speed Rank": "62.0",
+            "Broadband Mbps": "50.81",
+            "Mobile Speed Rank": "67.0",
+            "Mobile Mbps": "26.5"
+        },
+        {
+            "Country": "Costa Rica",
+            "Broadband Speed Rank": "63.0",
+            "Broadband Mbps": "50.79",
+            "Mobile Speed Rank": "95.0",
+            "Mobile Mbps": "17.49"
+        },
+        {
+            "Country": "Grenada",
+            "Broadband Speed Rank": "64.0",
+            "Broadband Mbps": "50.66",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Jordan",
+            "Broadband Speed Rank": "65.0",
+            "Broadband Mbps": "50.18",
+            "Mobile Speed Rank": "98.0",
+            "Mobile Mbps": "16.95"
+        },
+        {
+            "Country": "Italy",
+            "Broadband Speed Rank": "66.0",
+            "Broadband Mbps": "49.8",
+            "Mobile Speed Rank": "50.0",
+            "Mobile Mbps": "35.11"
+        },
+        {
+            "Country": "Philippines",
+            "Broadband Speed Rank": "67.0",
+            "Broadband Mbps": "49.52",
+            "Mobile Speed Rank": "92.0",
+            "Mobile Mbps": "17.95"
+        },
+        {
+            "Country": "Serbia",
+            "Broadband Speed Rank": "68.0",
+            "Broadband Mbps": "48.97",
+            "Mobile Speed Rank": "43.0",
+            "Mobile Mbps": "41.06"
+        },
+        {
+            "Country": "Czechia",
+            "Broadband Speed Rank": "69.0",
+            "Broadband Mbps": "47.68",
+            "Mobile Speed Rank": "40.0",
+            "Mobile Mbps": "44.72"
+        },
+        {
+            "Country": "Bahrain",
+            "Broadband Speed Rank": "70.0",
+            "Broadband Mbps": "47.38",
+            "Mobile Speed Rank": "39.0",
+            "Mobile Mbps": "44.89"
+        },
+        {
+            "Country": "Slovakia",
+            "Broadband Speed Rank": "71.0",
+            "Broadband Mbps": "47.34",
+            "Mobile Speed Rank": "59.0",
+            "Mobile Mbps": "31.9"
+        },
+        {
+            "Country": "India",
+            "Broadband Speed Rank": "72.0",
+            "Broadband Mbps": "47.08",
+            "Mobile Speed Rank": "116.0",
+            "Mobile Mbps": "13.49"
+        },
+        {
+            "Country": "Mongolia",
+            "Broadband Speed Rank": "73.0",
+            "Broadband Mbps": "46.81",
+            "Mobile Speed Rank": "108.0",
+            "Mobile Mbps": "15.6"
+        },
+        {
+            "Country": "Belarus",
+            "Broadband Speed Rank": "74.0",
+            "Broadband Mbps": "45.67",
+            "Mobile Speed Rank": "126.0",
+            "Mobile Mbps": "11.19"
+        },
+        {
+            "Country": "Kosovo",
+            "Broadband Speed Rank": "75.0",
+            "Broadband Mbps": "45.28",
+            "Mobile Speed Rank": "64.0",
+            "Mobile Mbps": "26.91"
+        },
+        {
+            "Country": "Kyrgyzstan",
+            "Broadband Speed Rank": "76.0",
+            "Broadband Mbps": "43.31",
+            "Mobile Speed Rank": "96.0",
+            "Mobile Mbps": "17.45"
+        },
+        {
+            "Country": "Peru",
+            "Broadband Speed Rank": "77.0",
+            "Broadband Mbps": "43.21",
+            "Mobile Speed Rank": "113.0",
+            "Mobile Mbps": "14.74"
+        },
+        {
+            "Country": "Oman",
+            "Broadband Speed Rank": "78.0",
+            "Broadband Mbps": "42.65",
+            "Mobile Speed Rank": "32.0",
+            "Mobile Mbps": "50.38"
+        },
+        {
+            "Country": "Nepal",
+            "Broadband Speed Rank": "79.0",
+            "Broadband Mbps": "39.73",
+            "Mobile Speed Rank": "112.0",
+            "Mobile Mbps": "14.96"
+        },
+        {
+            "Country": "Croatia",
+            "Broadband Speed Rank": "80.0",
+            "Broadband Mbps": "39.54",
+            "Mobile Speed Rank": "14.0",
+            "Mobile Mbps": "76.61"
+        },
+        {
+            "Country": "Mexico",
+            "Broadband Speed Rank": "81.0",
+            "Broadband Mbps": "38.77",
+            "Mobile Speed Rank": "80.0",
+            "Mobile Mbps": "22.26"
+        },
+        {
+            "Country": "Argentina",
+            "Broadband Speed Rank": "82.0",
+            "Broadband Mbps": "38.47",
+            "Mobile Speed Rank": "84.0",
+            "Mobile Mbps": "20.07"
+        },
+        {
+            "Country": "The Bahamas",
+            "Broadband Speed Rank": "83.0",
+            "Broadband Mbps": "37.69",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Uzbekistan",
+            "Broadband Speed Rank": "84.0",
+            "Broadband Mbps": "36.85",
+            "Mobile Speed Rank": "115.0",
+            "Mobile Mbps": "13.85"
+        },
+        {
+            "Country": "Jamaica",
+            "Broadband Speed Rank": "85.0",
+            "Broadband Mbps": "36.45",
+            "Mobile Speed Rank": "55.0",
+            "Mobile Mbps": "32.88"
+        },
+        {
+            "Country": "Egypt",
+            "Broadband Speed Rank": "86.0",
+            "Broadband Mbps": "35.67",
+            "Mobile Speed Rank": "88.0",
+            "Mobile Mbps": "19.34"
+        },
+        {
+            "Country": "Brunei",
+            "Broadband Speed Rank": "87.0",
+            "Broadband Mbps": "35.26",
+            "Mobile Speed Rank": "17.0",
+            "Mobile Mbps": "76.02"
+        },
+        {
+            "Country": "Armenia",
+            "Broadband Speed Rank": "88.0",
+            "Broadband Mbps": "34.26",
+            "Mobile Speed Rank": "69.0",
+            "Mobile Mbps": "26.23"
+        },
+        {
+            "Country": "Ecuador",
+            "Broadband Speed Rank": "89.0",
+            "Broadband Mbps": "33.96",
+            "Mobile Speed Rank": "87.0",
+            "Mobile Mbps": "19.51"
+        },
+        {
+            "Country": "Kazakhstan",
+            "Broadband Speed Rank": "90.0",
+            "Broadband Mbps": "33.76",
+            "Mobile Speed Rank": "91.0",
+            "Mobile Mbps": "18.0"
+        },
+        {
+            "Country": "Albania",
+            "Broadband Speed Rank": "91.0",
+            "Broadband Mbps": "33.5",
+            "Mobile Speed Rank": "48.0",
+            "Mobile Mbps": "35.62"
+        },
+        {
+            "Country": "Greece",
+            "Broadband Speed Rank": "92.0",
+            "Broadband Mbps": "33.41",
+            "Mobile Speed Rank": "25.0",
+            "Mobile Mbps": "55.49"
+        },
+        {
+            "Country": "Belize",
+            "Broadband Speed Rank": "93.0",
+            "Broadband Mbps": "31.81",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Bangladesh",
+            "Broadband Speed Rank": "94.0",
+            "Broadband Mbps": "31.52",
+            "Mobile Speed Rank": "130.0",
+            "Mobile Mbps": "9.81"
+        },
+        {
+            "Country": "C\u00f4te d'Ivoire",
+            "Broadband Speed Rank": "95.0",
+            "Broadband Mbps": "31.42",
+            "Mobile Speed Rank": "131.0",
+            "Mobile Mbps": "9.62"
+        },
+        {
+            "Country": "Guyana",
+            "Broadband Speed Rank": "96.0",
+            "Broadband Mbps": "31.01",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "South Africa",
+            "Broadband Speed Rank": "97.0",
+            "Broadband Mbps": "29.6",
+            "Mobile Speed Rank": "54.0",
+            "Mobile Mbps": "33.26"
+        },
+        {
+            "Country": "Cyprus",
+            "Broadband Speed Rank": "98.0",
+            "Broadband Mbps": "29.48",
+            "Mobile Speed Rank": "13.0",
+            "Mobile Mbps": "76.66"
+        },
+        {
+            "Country": "Nicaragua",
+            "Broadband Speed Rank": "99.0",
+            "Broadband Mbps": "29.04",
+            "Mobile Speed Rank": "101.0",
+            "Mobile Mbps": "16.56"
+        },
+        {
+            "Country": "Laos",
+            "Broadband Speed Rank": "100.0",
+            "Broadband Mbps": "28.11",
+            "Mobile Speed Rank": "76.0",
+            "Mobile Mbps": "23.47"
+        },
+        {
+            "Country": "Ghana",
+            "Broadband Speed Rank": "101.0",
+            "Broadband Mbps": "27.16",
+            "Mobile Speed Rank": "134.0",
+            "Mobile Mbps": "7.33"
+        },
+        {
+            "Country": "North Macedonia",
+            "Broadband Speed Rank": "102.0",
+            "Broadband Mbps": "26.77",
+            "Mobile Speed Rank": "22.0",
+            "Mobile Mbps": "61.96"
+        },
+        {
+            "Country": "Turkey",
+            "Broadband Speed Rank": "103.0",
+            "Broadband Mbps": "26.34",
+            "Mobile Speed Rank": "58.0",
+            "Mobile Mbps": "32.28"
+        },
+        {
+            "Country": "Honduras",
+            "Broadband Speed Rank": "104.0",
+            "Broadband Mbps": "25.98",
+            "Mobile Speed Rank": "86.0",
+            "Mobile Mbps": "19.65"
+        },
+        {
+            "Country": "Saint Kitts and Nevis",
+            "Broadband Speed Rank": "105.0",
+            "Broadband Mbps": "25.16",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Madagascar",
+            "Broadband Speed Rank": "106.0",
+            "Broadband Mbps": "25.16",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Bolivia",
+            "Broadband Speed Rank": "107.0",
+            "Broadband Mbps": "24.19",
+            "Mobile Speed Rank": "105.0",
+            "Mobile Mbps": "15.97"
+        },
+        {
+            "Country": "Bosnia and Herzegovina",
+            "Broadband Speed Rank": "108.0",
+            "Broadband Mbps": "22.56",
+            "Mobile Speed Rank": "70.0",
+            "Mobile Mbps": "26.18"
+        },
+        {
+            "Country": "Seychelles",
+            "Broadband Speed Rank": "109.0",
+            "Broadband Mbps": "22.13",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Guatemala",
+            "Broadband Speed Rank": "110.0",
+            "Broadband Mbps": "21.56",
+            "Mobile Speed Rank": "93.0",
+            "Mobile Mbps": "17.82"
+        },
+        {
+            "Country": "El Salvador",
+            "Broadband Speed Rank": "111.0",
+            "Broadband Mbps": "21.11",
+            "Mobile Speed Rank": "81.0",
+            "Mobile Mbps": "21.91"
+        },
+        {
+            "Country": "Sri Lanka",
+            "Broadband Speed Rank": "112.0",
+            "Broadband Mbps": "20.94",
+            "Mobile Speed Rank": "114.0",
+            "Mobile Mbps": "13.96"
+        },
+        {
+            "Country": "Iraq",
+            "Broadband Speed Rank": "113.0",
+            "Broadband Mbps": "20.64",
+            "Mobile Speed Rank": "47.0",
+            "Mobile Mbps": "36.12"
+        },
+        {
+            "Country": "Senegal",
+            "Broadband Speed Rank": "114.0",
+            "Broadband Mbps": "20.36",
+            "Mobile Speed Rank": "104.0",
+            "Mobile Mbps": "15.98"
+        },
+        {
+            "Country": "Indonesia",
+            "Broadband Speed Rank": "115.0",
+            "Broadband Mbps": "20.2",
+            "Mobile Speed Rank": "103.0",
+            "Mobile Mbps": "16.36"
+        },
+        {
+            "Country": "Georgia",
+            "Broadband Speed Rank": "116.0",
+            "Broadband Mbps": "20.18",
+            "Mobile Speed Rank": "61.0",
+            "Mobile Mbps": "29.71"
+        },
+        {
+            "Country": "Mauritius",
+            "Broadband Speed Rank": "117.0",
+            "Broadband Mbps": "19.88",
+            "Mobile Speed Rank": "83.0",
+            "Mobile Mbps": "20.59"
+        },
+        {
+            "Country": "Burkina Faso",
+            "Broadband Speed Rank": "118.0",
+            "Broadband Mbps": "19.71",
+            "Mobile Speed Rank": "124.0",
+            "Mobile Mbps": "11.52"
+        },
+        {
+            "Country": "Cambodia",
+            "Broadband Speed Rank": "119.0",
+            "Broadband Mbps": "19.36",
+            "Mobile Speed Rank": "99.0",
+            "Mobile Mbps": "16.82"
+        },
+        {
+            "Country": "Lesotho",
+            "Broadband Speed Rank": "120.0",
+            "Broadband Mbps": "18.92",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Mali",
+            "Broadband Speed Rank": "121.0",
+            "Broadband Mbps": "17.71",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Azerbaijan",
+            "Broadband Speed Rank": "122.0",
+            "Broadband Mbps": "17.4",
+            "Mobile Speed Rank": "60.0",
+            "Mobile Mbps": "30.96"
+        },
+        {
+            "Country": "Antigua and Barbuda",
+            "Broadband Speed Rank": "123.0",
+            "Broadband Mbps": "17.36",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Tajikistan",
+            "Broadband Speed Rank": "124.0",
+            "Broadband Mbps": "16.96",
+            "Mobile Speed Rank": "135.0",
+            "Mobile Mbps": "6.43"
+        },
+        {
+            "Country": "Togo",
+            "Broadband Speed Rank": "125.0",
+            "Broadband Mbps": "16.46",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Cape Verde",
+            "Broadband Speed Rank": "126.0",
+            "Broadband Mbps": "16.37",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Dominican Republic",
+            "Broadband Speed Rank": "127.0",
+            "Broadband Mbps": "15.52",
+            "Mobile Speed Rank": "97.0",
+            "Mobile Mbps": "17.21"
+        },
+        {
+            "Country": "Republic of the Union of Myanmar",
+            "Broadband Speed Rank": "128.0",
+            "Broadband Mbps": "15.2",
+            "Mobile Speed Rank": "68.0",
+            "Mobile Mbps": "26.29"
+        },
+        {
+            "Country": "Haiti",
+            "Broadband Speed Rank": "129.0",
+            "Broadband Mbps": "14.89",
+            "Mobile Speed Rank": "129.0",
+            "Mobile Mbps": "10.02"
+        },
+        {
+            "Country": "Palestine",
+            "Broadband Speed Rank": "130.0",
+            "Broadband Mbps": "14.3",
+            "Mobile Speed Rank": "137.0",
+            "Mobile Mbps": "5.72"
+        },
+        {
+            "Country": "Gabon",
+            "Broadband Speed Rank": "131.0",
+            "Broadband Mbps": "13.41",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Morocco",
+            "Broadband Speed Rank": "132.0",
+            "Broadband Mbps": "12.78",
+            "Mobile Speed Rank": "66.0",
+            "Mobile Mbps": "26.86"
+        },
+        {
+            "Country": "Fiji",
+            "Broadband Speed Rank": "133.0",
+            "Broadband Mbps": "12.27",
+            "Mobile Speed Rank": "79.0",
+            "Mobile Mbps": "22.75"
+        },
+        {
+            "Country": "Angola",
+            "Broadband Speed Rank": "134.0",
+            "Broadband Mbps": "11.97",
+            "Mobile Speed Rank": "72.0",
+            "Mobile Mbps": "25.43"
+        },
+        {
+            "Country": "Congo",
+            "Broadband Speed Rank": "135.0",
+            "Broadband Mbps": "11.84",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Libya",
+            "Broadband Speed Rank": "136.0",
+            "Broadband Mbps": "11.0",
+            "Mobile Speed Rank": "128.0",
+            "Mobile Mbps": "10.35"
+        },
+        {
+            "Country": "Maldives",
+            "Broadband Speed Rank": "137.0",
+            "Broadband Mbps": "10.97",
+            "Mobile Speed Rank": "37.0",
+            "Mobile Mbps": "46.87"
+        },
+        {
+            "Country": "Suriname",
+            "Broadband Speed Rank": "138.0",
+            "Broadband Mbps": "10.79",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Benin",
+            "Broadband Speed Rank": "139.0",
+            "Broadband Mbps": "10.77",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Western Sahara",
+            "Broadband Speed Rank": "140.0",
+            "Broadband Mbps": "10.51",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Iran",
+            "Broadband Speed Rank": "141.0",
+            "Broadband Mbps": "10.39",
+            "Mobile Speed Rank": "77.0",
+            "Mobile Mbps": "23.1"
+        },
+        {
+            "Country": "Nigeria",
+            "Broadband Speed Rank": "142.0",
+            "Broadband Mbps": "10.06",
+            "Mobile Speed Rank": "90.0",
+            "Mobile Mbps": "18.33"
+        },
+        {
+            "Country": "Micronesia",
+            "Broadband Speed Rank": "143.0",
+            "Broadband Mbps": "9.75",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Algeria",
+            "Broadband Speed Rank": "144.0",
+            "Broadband Mbps": "9.72",
+            "Mobile Speed Rank": "125.0",
+            "Mobile Mbps": "11.31"
+        },
+        {
+            "Country": "Uganda",
+            "Broadband Speed Rank": "145.0",
+            "Broadband Mbps": "9.57",
+            "Mobile Speed Rank": "111.0",
+            "Mobile Mbps": "15.02"
+        },
+        {
+            "Country": "Rwanda",
+            "Broadband Speed Rank": "146.0",
+            "Broadband Mbps": "9.52",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Liberia",
+            "Broadband Speed Rank": "147.0",
+            "Broadband Mbps": "9.48",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Tanzania",
+            "Broadband Speed Rank": "148.0",
+            "Broadband Mbps": "9.45",
+            "Mobile Speed Rank": "127.0",
+            "Mobile Mbps": "10.44"
+        },
+        {
+            "Country": "Marshall Islands",
+            "Broadband Speed Rank": "149.0",
+            "Broadband Mbps": "9.29",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Papua New Guinea",
+            "Broadband Speed Rank": "150.0",
+            "Broadband Mbps": "9.25",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Pakistan",
+            "Broadband Speed Rank": "151.0",
+            "Broadband Mbps": "9.12",
+            "Mobile Speed Rank": "102.0",
+            "Mobile Mbps": "16.56"
+        },
+        {
+            "Country": "Cameroon",
+            "Broadband Speed Rank": "152.0",
+            "Broadband Mbps": "9.04",
+            "Mobile Speed Rank": "117.0",
+            "Mobile Mbps": "13.07"
+        },
+        {
+            "Country": "Kenya",
+            "Broadband Speed Rank": "153.0",
+            "Broadband Mbps": "8.91",
+            "Mobile Speed Rank": "107.0",
+            "Mobile Mbps": "15.81"
+        },
+        {
+            "Country": "Sierra Leone",
+            "Broadband Speed Rank": "154.0",
+            "Broadband Mbps": "8.57",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Bhutan",
+            "Broadband Speed Rank": "155.0",
+            "Broadband Mbps": "8.52",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Namibia",
+            "Broadband Speed Rank": "156.0",
+            "Broadband Mbps": "8.29",
+            "Mobile Speed Rank": "85.0",
+            "Mobile Mbps": "20.04"
+        },
+        {
+            "Country": "The Gambia",
+            "Broadband Speed Rank": "157.0",
+            "Broadband Mbps": "7.84",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Tunisia",
+            "Broadband Speed Rank": "158.0",
+            "Broadband Mbps": "7.64",
+            "Mobile Speed Rank": "82.0",
+            "Mobile Mbps": "21.78"
+        },
+        {
+            "Country": "Lebanon",
+            "Broadband Speed Rank": "159.0",
+            "Broadband Mbps": "7.27",
+            "Mobile Speed Rank": "94.0",
+            "Mobile Mbps": "17.72"
+        },
+        {
+            "Country": "Botswana",
+            "Broadband Speed Rank": "160.0",
+            "Broadband Mbps": "7.22",
+            "Mobile Speed Rank": "73.0",
+            "Mobile Mbps": "24.79"
+        },
+        {
+            "Country": "Venezuela",
+            "Broadband Speed Rank": "161.0",
+            "Broadband Mbps": "7.15",
+            "Mobile Speed Rank": "136.0",
+            "Mobile Mbps": "5.99"
+        },
+        {
+            "Country": "Somalia",
+            "Broadband Speed Rank": "162.0",
+            "Broadband Mbps": "6.78",
+            "Mobile Speed Rank": "132.0",
+            "Mobile Mbps": "7.98"
+        },
+        {
+            "Country": "Mozambique",
+            "Broadband Speed Rank": "163.0",
+            "Broadband Mbps": "6.23",
+            "Mobile Speed Rank": "120.0",
+            "Mobile Mbps": "12.52"
+        },
+        {
+            "Country": "Mauritania",
+            "Broadband Speed Rank": "164.0",
+            "Broadband Mbps": "6.1",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Malawi",
+            "Broadband Speed Rank": "165.0",
+            "Broadband Mbps": "5.54",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Burundi",
+            "Broadband Speed Rank": "166.0",
+            "Broadband Mbps": "5.44",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Zimbabwe",
+            "Broadband Speed Rank": "167.0",
+            "Broadband Mbps": "5.21",
+            "Mobile Speed Rank": "123.0",
+            "Mobile Mbps": "12.02"
+        },
+        {
+            "Country": "Swaziland",
+            "Broadband Speed Rank": "168.0",
+            "Broadband Mbps": "4.94",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Djibouti",
+            "Broadband Speed Rank": "169.0",
+            "Broadband Mbps": "4.71",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Zambia",
+            "Broadband Speed Rank": "170.0",
+            "Broadband Mbps": "4.6",
+            "Mobile Speed Rank": "121.0",
+            "Mobile Mbps": "12.46"
+        },
+        {
+            "Country": "Niger",
+            "Broadband Speed Rank": "171.0",
+            "Broadband Mbps": "3.85",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Guinea",
+            "Broadband Speed Rank": "172.0",
+            "Broadband Mbps": "3.79",
+            "Mobile Speed Rank": "",
+            "Mobile Mbps": ""
+        },
+        {
+            "Country": "Sudan",
+            "Broadband Speed Rank": "173.0",
+            "Broadband Mbps": "3.28",
+            "Mobile Speed Rank": "133.0",
+            "Mobile Mbps": "7.83"
+        },
+        {
+            "Country": "Syria",
+            "Broadband Speed Rank": "174.0",
+            "Broadband Mbps": "2.87",
+            "Mobile Speed Rank": "122.0",
+            "Mobile Mbps": "12.24"
+        },
+        {
+            "Country": "Yemen",
+            "Broadband Speed Rank": "175.0",
+            "Broadband Mbps": "2.74",
+            "Mobile Speed Rank": "140.0",
+            "Mobile Mbps": "0.53"
+        },
+        {
+            "Country": "Ethiopia",
+            "Broadband Speed Rank": "176.0",
+            "Broadband Mbps": "2.69",
+            "Mobile Speed Rank": "78.0",
+            "Mobile Mbps": "22.83"
+        },
+        {
+            "Country": "Cuba",
+            "Broadband Speed Rank": "177.0",
+            "Broadband Mbps": "1.9",
+            "Mobile Speed Rank": "119.0",
+            "Mobile Mbps": "12.71"
+        },
+        {
+            "Country": "Turkmenistan",
+            "Broadband Speed Rank": "178.0",
+            "Broadband Mbps": "1.89",
+            "Mobile Speed Rank": "139.0",
+            "Mobile Mbps": "3.09"
+        },
+        {
+            "Country": "Afghanistan",
+            "Broadband Speed Rank": "179.0",
+            "Broadband Mbps": "1.62",
+            "Mobile Speed Rank": "138.0",
+            "Mobile Mbps": "5.1"
+        }
+    ]
+}
