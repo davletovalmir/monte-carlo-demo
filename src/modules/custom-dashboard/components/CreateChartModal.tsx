@@ -25,6 +25,7 @@ import type { DatasetVisualization } from "../types";
 import { useToast } from "~/shared/components/ui/use-toast";
 import { Button } from "~/shared/components/ui/button";
 import { useToggle } from "usehooks-ts";
+import { CHART_TYPES } from "~/modules/happiness-dashboard/consts";
 
 const Label = ({ children }: PropsWithChildren) => {
   return (
@@ -96,8 +97,9 @@ export const CreateChartModal = ({
 
   const { toast } = useToast();
 
+  const [chartType, setChartType] = useState<ChartConfig["type"]>("line");
   const chartConfig = {
-    type: "line",
+    type: chartType,
     xField: "Country",
     yFields: selectedFields,
     filters: filters.current,
@@ -152,6 +154,23 @@ export const CreateChartModal = ({
               />
               {field.name}
             </Label>
+          ))}
+        </div>
+
+        <div className="ml-auto flex gap-2 rounded-lg bg-slate-200 p-2">
+          {CHART_TYPES.map((item) => (
+            <Button
+              size="sm"
+              key={item.type}
+              variant="ghost"
+              onClick={() => setChartType(item.type)}
+              className={cn("h-6 hover:bg-slate-300", {
+                "bg-slate-700 text-white hover:bg-slate-700 hover:text-white":
+                  item.type === chartType,
+              })}
+            >
+              {item.title}
+            </Button>
           ))}
         </div>
 
