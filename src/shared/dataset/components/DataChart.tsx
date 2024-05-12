@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useCallback, useMemo } from "react";
 import {
   LineChart,
   Line,
@@ -19,6 +19,8 @@ import {
   type Dataset,
   type FilterState,
   filterDataset,
+  type DatasetRecord,
+  calcExtrema,
 } from "~/shared/dataset";
 
 const colors: { main: string; hover: string }[] = [
@@ -104,19 +106,58 @@ const renderChartElement = (
   }
 };
 
+const normalizeData = (records: DatasetRecord[], fields: string[]) => {
+  const extrema = calcExtrema(records, fields);
+
+  return records.map((item) => {
+    const newItem: DatasetRecord = { ...item };
+    fields.forEach((field) => {
+      const { min, max } = extrema[field] ?? {};
+      const val = item[field];
+      if (min === undefined || max === undefined || typeof val !== "number")
+        return;
+
+      const range = max - min;
+      newItem[field + "Orig"] = val;
+      newItem[field] = range !== 0 ? (val - min) / range : 0;
+    });
+
+    return newItem;
+  });
+};
+
 type DataChartProps = {
   dataset: Dataset;
   config: ChartConfig;
+  normalize?: boolean;
   className?: string;
 };
 
-export const DataChart = ({ dataset, config, className }: DataChartProps) => {
+export const DataChart = ({
+  dataset,
+  config,
+  normalize,
+  className,
+}: DataChartProps) => {
   const { type: chartType, filters, xField, yFields } = config;
   const records = useMemo(() => {
     if (!filters) return dataset.data;
     const filtered = filterDataset(dataset, filters);
     return filtered.data;
   }, [filters, dataset]);
+
+  const normalizedRecords = useMemo(() => {
+    if (normalize) return normalizeData(records, yFields);
+    return records;
+  }, [normalize, records, yFields]);
+
+  const formatTooltip = useCallback(
+    (value: number, name: string, item: { payload?: DatasetRecord }) => {
+      if (normalize) return item.payload?.[name + "Orig"];
+      return value;
+    },
+    [normalize],
+  );
 
   const Chart = useMemo(() => {
     if (chartType === "line") return LineChart;
@@ -131,7 +172,7 @@ export const DataChart = ({ dataset, config, className }: DataChartProps) => {
         <Chart
           width={500}
           height={300}
-          data={records}
+          data={normalizedRecords}
           margin={{
             top: 5,
             right: 30,
@@ -142,7 +183,7 @@ export const DataChart = ({ dataset, config, className }: DataChartProps) => {
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey={xField} />
           <YAxis />
-          <Tooltip />
+          <Tooltip formatter={formatTooltip} />
           <Legend />
           {yFields.map((field, idx) =>
             renderChartElement(chartType, field, idx),

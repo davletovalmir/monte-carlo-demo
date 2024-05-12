@@ -168,6 +168,7 @@ export const CreateChartModal = ({
             <DataChart
               dataset={dataset}
               config={chartConfig}
+              normalize
               className="h-full"
             />
           )}

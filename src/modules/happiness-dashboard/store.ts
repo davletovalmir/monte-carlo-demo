@@ -1,9 +1,10 @@
 import { atom } from "jotai";
-import type {
-  Dataset,
-  DatasetMetadata,
-  DatasetRecord,
-  DatasetSchema,
+import {
+  type Dataset,
+  type DatasetMetadata,
+  type DatasetRecord,
+  type DatasetSchema,
+  calcExtrema,
 } from "~/shared/dataset";
 
 export const joinedDatasetAtom = atom<Dataset | null>(null);
@@ -40,35 +41,11 @@ export const targetCountryRecordAtom = atom<DatasetRecord | null>((get) => {
 
 export const compareFieldAtom = atom<string>("Happiness Score");
 
-type Extrema = Record<string, { min: number; max: number }>;
-
-export const extremaAtom = atom<Extrema>((get) => {
-  const extrema: Extrema = {};
+export const extremaAtom = atom((get) => {
   const dataset = get(joinedDatasetAtom);
   if (!dataset) return {};
 
-  Object.keys(dataset.schema).forEach((key) => {
-    if (dataset.schema[key] === "number") {
-      extrema[key] = { min: Infinity, max: -Infinity };
-    }
-  });
-
-  dataset.data.forEach((item) => {
-    Object.keys(item).forEach((key) => {
-      const val = item[key];
-      const extremaVal = extrema[key];
-      if (!extremaVal || typeof val !== "number") return;
-
-      if (val < extremaVal.min) {
-        extremaVal.min = val;
-      }
-      if (val > extremaVal.max) {
-        extremaVal.max = val;
-      }
-    });
-  });
-
-  return extrema;
+  return calcExtrema(dataset.data, Object.keys(dataset.schema));
 });
 
 export const countryOverviewDomAtom = atom<HTMLDivElement | null>(null);

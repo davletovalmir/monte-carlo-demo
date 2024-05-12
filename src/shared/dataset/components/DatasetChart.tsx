@@ -17,6 +17,11 @@ export const DatasetChart = ({
   if (!dataset) return null;
 
   return (
-    <DataChart dataset={dataset} config={chartConfig} className="h-[500px]" />
+    <DataChart
+      dataset={dataset}
+      config={chartConfig}
+      normalize
+      className="h-[500px]"
+    />
   );
 };

@@ -119,6 +119,7 @@ export const CompareCountriesChart = () => {
           xField: "Country",
           yFields,
         }}
+        normalize
         className="h-[500px]"
       />
     </div>

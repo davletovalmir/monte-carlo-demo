@@ -3,6 +3,7 @@ import { fetchDatasetFromApi, fetchDatasetSchemasFromApi } from "./fetch";
 import { fetchDatasetFromDB, fetchDatasetSchemasFromDB } from "./indexed-db";
 
 export * from "./types";
+export * from "./utils/index";
 export * from "./utils/join";
 export * from "./utils/filter";
 export * from "./components/DataTable";
